@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Home",
+    "articles": "Articles"
+  },
+  "home": {
+    "title": "Wakanze",
+    "subtitle": "Public Gateway coming soon."
+  },
+  "language": {
+    "label": "Português"
+  }
+}
