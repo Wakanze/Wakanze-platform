@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "articles": "Artículos"
+  },
+  "home": {
+    "title": "Wakanze",
+    "subtitle": "Portal público próximamente."
+  },
+  "language": {
+    "label": "Idioma"
+  }
+}
