@@ -1,0 +1,53 @@
+# Local development stack: PostgreSQL + Django + Vite.
+#   docker compose up --build
+#   docker compose exec backend python manage.py migrate
+#   docker compose exec backend python manage.py create_staff_account --email you@example.com --role admin
+# Then open http://localhost:5173 (the app) or http://localhost:5173/admin/ (back-office).
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: wakanze
+      POSTGRES_USER: wakanze
+      POSTGRES_PASSWORD: wakanze
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U wakanze -d wakanze"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+      target: dev
+    environment:
+      DJANGO_SETTINGS_MODULE: config.settings.dev
+      DJANGO_SECRET_KEY: dev-insecure-change-me
+      DATABASE_URL: postgres://wakanze:wakanze@db:5432/wakanze
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build: ./frontend
+    environment:
+      VITE_BACKEND_URL: http://backend:8000
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
