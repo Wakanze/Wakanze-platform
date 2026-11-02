@@ -9,6 +9,8 @@ that turns a visitor into a known, reachable person moving toward participation.
 
 > Social → website → content/events → email capture → interest → (future) membership
 
+**Mockup (UX):** see [`docs/MOCKUP.md`](docs/MOCKUP.md) for the pages, the visual direction and the SRS requirements each page covers.
+
 Scope, rules and decisions live in [`docs/architecture/`](docs/architecture/README.md) (the source `.docx` documents).
 Build progress: [`docs/PHASES.md`](docs/PHASES.md). Decisions: [`docs/adrs/`](docs/adrs/README.md).
 

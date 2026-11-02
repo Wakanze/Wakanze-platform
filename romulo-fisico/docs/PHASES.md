@@ -5,7 +5,7 @@ From Final Technical Baseline Review v0.1 §14. Reference requirement IDs (WEB-1
 | Phase | Scope | Status |
 |---|---|---|
 | 1 — Technical foundation | Repo, Django project, PostgreSQL, React project, environment config, CI, base API, staff auth, migrations, logging, audit foundation | **Done** |
-| 2 — Public Gateway | Design system, homepage, navigation, responsive layout, i18n, content, events, creator pages | Next |
+| 2 — Public Gateway | Design system, homepage, navigation, responsive layout, i18n, content, events, creator pages | **Mockup done** ([MOCKUP.md](MOCKUP.md)); API wiring next |
 | 3 — Growth loop | Lead capture, attribution (UTM), double opt-in, newsletter workflow, unsubscribe, analytics | |
 | 4 — Interest pipeline | Interest form (6 categories), records, statuses, staff workflow, acknowledgment email, PII controls | |
 | 5 — Admin | Admin/Editor roles in Django Admin, content/events/leads/interests management, newsletter approval screen, audit | |

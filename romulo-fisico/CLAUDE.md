@@ -89,7 +89,11 @@ cd frontend && npm run lint && npm run typecheck && npm test && npm run build
 - **Fase 1, fundação técnica: concluída** e trazida para `romulo-fisico/` (2026-11-02), com o frontend
   refeito na stack do Admin. 28 testes no backend e 7 no frontend, todos a passar.
   Nesta máquina **não há Python no host**: correr os checks do backend com `docker compose exec backend ...`.
-- **A seguir: o mockup / UX** do Public Gateway, nesta pasta, com a stack do Admin.
+- **Mockup / UX feito (2026-11-02)**, branch `feat/romulo-fisico-mockup`: direção "Terra & Esmeralda",
+  todas as páginas do SRS com dados fictícios (`frontend/src/mocks/`), formulários sem envio real.
+  Detalhes e cobertura do SRS em `docs/MOCKUP.md`. 19 testes no frontend.
+  Conteúdo só em EN/PT (`lib/localized.ts`); a UI está nas 4 línguas.
+- O Vite no Docker usa polling (`VITE_USE_POLLING`): sem isso, no Windows as alterações não recarregam.
 - CI: `.github/workflows/ci.yml` fica nesta pasta e **não corre** (o GitHub só lê a raiz). Ativar só se o Admin quiser.
 
 Respostas do Admin (Slack, 2026-10-29 e conversa de 2026-11-02):
