@@ -1,25 +1,232 @@
 {
   "common": {
     "loading": "Loading…",
-    "error": "Something went wrong. Please try again."
+    "error": "Something went wrong. Please try again.",
+    "skipToContent": "Skip to content",
+    "mockupBanner": "Mockup for review: content, events and people are illustrative and forms do not send anything.",
+    "opensInNewTab": "(opens in a new tab)"
   },
   "nav": {
     "label": "Main",
     "home": "Home",
     "about": "About",
-    "articles": "Articles"
+    "articles": "Articles",
+    "events": "Events",
+    "creators": "Creators",
+    "join": "Get involved",
+    "open": "Open menu",
+    "close": "Close menu"
   },
   "home": {
-    "title": "Wakanze",
-    "subtitle": "Public Gateway coming soon."
+    "metaDescription": "Wakanze connects African peoples and the African diaspora across history, geography, culture and opportunity.",
+    "kicker": "Africa and its diaspora",
+    "title": "One people, many homes.",
+    "subtitle": "Wakanze connects African peoples and the diaspora across history, geography, culture and opportunity. Read the stories, find an event near you and choose how you want to take part.",
+    "primaryCta": "Get involved",
+    "secondaryCta": "Read the stories",
+    "pillarsTitle": "What Wakanze does",
+    "pillars": {
+      "memory": {
+        "title": "History and memory",
+        "body": "Stories, archives and family memory that tell African history from the inside."
+      },
+      "culture": {
+        "title": "Culture and creators",
+        "body": "The writers, musicians and filmmakers shaping African and diaspora culture today."
+      },
+      "connection": {
+        "title": "Connection and opportunity",
+        "body": "Events and local circles that turn a scattered diaspora into a network."
+      }
+    },
+    "articlesKicker": "Latest stories",
+    "articlesTitle": "Read, then share",
+    "allArticles": "All articles",
+    "eventsKicker": "Coming up",
+    "eventsTitle": "Meet in person or online",
+    "allEvents": "All events",
+    "creatorsKicker": "Featured creators",
+    "creatorsTitle": "Voices worth following",
+    "allCreators": "All creators",
+    "waysKicker": "Your next step",
+    "waysTitle": "Six ways to take part",
+    "waysCta": "Tell us"
   },
   "about": {
-    "title": "About",
-    "body": "Connecting African peoples and the African diaspora across history, geography, culture and opportunity."
+    "kicker": "About Wakanze",
+    "title": "A digital commons for the African world",
+    "intro": "Wakanze is a long-term project to connect African peoples and the diaspora across history, geography, culture, knowledge and generations.",
+    "body1": "The history of the African diaspora is not only a story of displacement. It is also a story of creation: new cultures, new languages, new communities on every continent.",
+    "body2": "Wakanze starts with something simple: a place to read those stories, meet the people telling them and find others nearby who care about the same things.",
+    "quote": "From a diaspora of individuals to a network of communities.",
+    "body3": "Everything else, from local circles to education and shared projects, grows from the people who choose to take part. That is why the first thing we ask is how you would like to be involved.",
+    "journeyTitle": "How it works",
+    "steps": {
+      "discover": {
+        "title": "Discover",
+        "body": "Read stories and find events and creators."
+      },
+      "connect": {
+        "title": "Stay in touch",
+        "body": "Get the newsletter with the best of each month."
+      },
+      "participate": {
+        "title": "Take part",
+        "body": "Tell us how you want to be involved."
+      },
+      "build": {
+        "title": "Build together",
+        "body": "Local circles and projects grow from there."
+      }
+    }
   },
   "articles": {
+    "kicker": "Stories",
     "title": "Articles",
-    "body": "The content feed will appear here."
+    "intro": "History, culture, community and opportunity, newest first.",
+    "back": "All articles",
+    "by": "By {{author}}",
+    "readTime_one": "{{count}} min read",
+    "readTime_other": "{{count}} min read",
+    "more": "Keep reading",
+    "newsletterTitle": "Enjoyed this story?",
+    "newsletterBody": "Get the best stories and events once a month.",
+    "categories": {
+      "history": "History",
+      "culture": "Culture",
+      "community": "Community",
+      "opportunity": "Opportunity"
+    }
+  },
+  "events": {
+    "kicker": "Events",
+    "title": "Upcoming events",
+    "intro": "Walks, workshops, talks and meetups, in cities and online. Registration happens on each organiser's page.",
+    "filtersLabel": "Filter events",
+    "from": "From",
+    "to": "To",
+    "region": "Region",
+    "regions": {
+      "all": "All regions",
+      "africa": "Africa",
+      "europe": "Europe",
+      "americas": "Americas",
+      "online": "Online"
+    },
+    "clear": "Clear filters",
+    "count_one": "{{count}} event",
+    "count_other": "{{count}} events",
+    "empty": "No events match these filters. Try a wider date range or another region.",
+    "online": "Online",
+    "register": "Register",
+    "noRegistration": "Free entry, no registration needed"
+  },
+  "creators": {
+    "kicker": "Creators",
+    "title": "Creators to follow",
+    "intro": "People producing work on African and diaspora history, culture and life. Follow them on their own channels.",
+    "filterLabel": "Filter by topic",
+    "topics": {
+      "all": "All",
+      "history": "History",
+      "music": "Music",
+      "business": "Business",
+      "language": "Language",
+      "film": "Film"
+    },
+    "joinTitle": "Are you a creator?",
+    "joinBody": "Tell us about your work and we will be in touch.",
+    "joinCta": "Apply to be featured"
+  },
+  "join": {
+    "kicker": "Get involved",
+    "title": "How would you like to take part?",
+    "intro": "Choose one or more options. A member of the team reads every answer and gets back to you.",
+    "nextTitle": "What happens next",
+    "next": {
+      "review": "You receive an email confirming we have your answer.",
+      "contact": "Someone from the team reviews it and contacts you personally.",
+      "connect": "We connect you with the right people, event or circle near you."
+    },
+    "notMembership": "This form records your interest. It is not a membership application and does not create an account."
+  },
+  "interest": {
+    "categoriesLegend": "I would like to…",
+    "categoriesHint": "Choose all that apply.",
+    "categories": {
+      "member": {
+        "title": "Become a member",
+        "body": "Be part of Wakanze as it takes shape."
+      },
+      "club": {
+        "title": "Join or start a circle",
+        "body": "Meet people near you regularly."
+      },
+      "event": {
+        "title": "Attend events",
+        "body": "Hear first about events in your region."
+      },
+      "creator": {
+        "title": "Become a creator",
+        "body": "Share your work with the community."
+      },
+      "volunteer": {
+        "title": "Volunteer",
+        "body": "Give some time and skills."
+      },
+      "partner": {
+        "title": "Partner with us",
+        "body": "Organisations, schools and businesses."
+      }
+    },
+    "name": "Full name",
+    "email": "Email",
+    "location": "Where do you live?",
+    "locationPlaceholder": "City, country",
+    "privacy": "We use these details only to reply to you. Only authorised team members can see them, and you can ask us to delete them at any time.",
+    "submit": "Send",
+    "errors": {
+      "name": "Please tell us your name.",
+      "email": "Please enter a valid email address.",
+      "location": "Please tell us where you live.",
+      "categories": "Choose at least one option."
+    },
+    "thanksTitle": "Thank you, {{name}}.",
+    "thanksBody": "We have your answer and sent a confirmation to {{email}}. Someone from the team will be in touch."
+  },
+  "newsletter": {
+    "emailLabel": "Email address",
+    "placeholder": "your@email.com",
+    "submit": "Subscribe",
+    "note": "One email a month. We send a confirmation link first, and you can unsubscribe with one click.",
+    "invalidEmail": "Please enter a valid email address.",
+    "checkInbox": "Check your inbox",
+    "sentTo": "We sent a confirmation link to {{email}}. Click it to start receiving the newsletter."
+  },
+  "cta": {
+    "title": "Stay close to the stories",
+    "body": "The best articles, events and creators, once a month. Or tell us how you would like to take part.",
+    "join": "Get involved"
+  },
+  "footer": {
+    "mission": "Connecting African peoples and the African diaspora across history, geography, culture and opportunity.",
+    "explore": "Explore",
+    "participate": "Take part",
+    "becomeCreator": "Become a creator",
+    "partner": "Partner with us",
+    "copyright": "© {{year}} Wakanze",
+    "staff": "Staff sign in"
+  },
+  "subscription": {
+    "confirmed": {
+      "title": "You are subscribed",
+      "body": "Thank you for confirming. The next newsletter will arrive at the start of next month.",
+      "cta": "Read the latest stories"
+    },
+    "unsubscribed": {
+      "title": "You have been unsubscribed",
+      "body": "You will not receive the newsletter any more. You can subscribe again at any time from any page."
+    }
   },
   "auth": {
     "title": "Staff sign in",

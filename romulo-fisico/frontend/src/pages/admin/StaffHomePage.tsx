@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useAuth } from '../../features/auth/useAuth.ts'
+import { usePageMeta } from '../../lib/usePageMeta.ts'
 
 /**
  * Staff landing. Per Readiness Report §4, pages/admin holds only the two screens
@@ -7,6 +8,7 @@ import { useAuth } from '../../features/auth/useAuth.ts'
  */
 export default function StaffHomePage() {
   const { t } = useTranslation()
+  usePageMeta(t('staff.title'))
   const { account, logout } = useAuth()
   if (!account) return null
 
