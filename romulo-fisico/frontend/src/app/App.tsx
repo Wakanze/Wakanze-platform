@@ -1,0 +1,34 @@
+import { Route, Routes } from 'react-router'
+import PublicLayout from './PublicLayout.tsx'
+import HomePage from '../pages/public/HomePage.tsx'
+import AboutPage from '../pages/public/AboutPage.tsx'
+import ArticlesPage from '../pages/public/ArticlesPage.tsx'
+import NotFoundPage from '../pages/public/NotFoundPage.tsx'
+import StaffHomePage from '../pages/admin/StaffHomePage.tsx'
+import AuthProvider from '../features/auth/AuthProvider.tsx'
+import LoginPage from '../features/auth/LoginPage.tsx'
+import RequireStaff from '../features/auth/RequireStaff.tsx'
+
+export default function App() {
+  return (
+    <AuthProvider>
+      <Routes>
+        <Route element={<PublicLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="articles" element={<ArticlesPage />} />
+          <Route path="staff/login" element={<LoginPage />} />
+          <Route
+            path="staff"
+            element={
+              <RequireStaff>
+                <StaffHomePage />
+              </RequireStaff>
+            }
+          />
+          <Route path="*" element={<NotFoundPage />} />
+        </Route>
+      </Routes>
+    </AuthProvider>
+  )
+}

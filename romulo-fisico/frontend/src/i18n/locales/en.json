@@ -1,0 +1,47 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again."
+  },
+  "nav": {
+    "label": "Main",
+    "home": "Home",
+    "about": "About",
+    "articles": "Articles"
+  },
+  "home": {
+    "title": "Wakanze",
+    "subtitle": "Public Gateway coming soon."
+  },
+  "about": {
+    "title": "About",
+    "body": "Connecting African peoples and the African diaspora across history, geography, culture and opportunity."
+  },
+  "articles": {
+    "title": "Articles",
+    "body": "The content feed will appear here."
+  },
+  "auth": {
+    "title": "Staff sign in",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "invalid": "Invalid email or password.",
+    "logout": "Sign out"
+  },
+  "staff": {
+    "title": "Staff area",
+    "signedInAs": "Signed in as {{email}}",
+    "roles": "Platform roles: {{roles}}",
+    "rolesNote": "Platform roles are software permissions only, not Wakanze institutional roles.",
+    "djangoAdmin": "Open the back-office (Django Admin)",
+    "upcoming": "Newsletter approval and the analytics dashboard will appear here in later phases."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back to home"
+  },
+  "language": {
+    "label": "Language"
+  }
+}

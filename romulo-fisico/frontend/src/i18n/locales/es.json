@@ -1,0 +1,47 @@
+{
+  "common": {
+    "loading": "Cargando…",
+    "error": "Algo salió mal. Inténtalo de nuevo."
+  },
+  "nav": {
+    "label": "Principal",
+    "home": "Inicio",
+    "about": "Acerca de",
+    "articles": "Artículos"
+  },
+  "home": {
+    "title": "Wakanze",
+    "subtitle": "Portal público próximamente."
+  },
+  "about": {
+    "title": "Acerca de",
+    "body": "Conectar a los pueblos africanos y a la diáspora africana a través de la historia, la geografía, la cultura y las oportunidades."
+  },
+  "articles": {
+    "title": "Artículos",
+    "body": "Los contenidos aparecerán aquí."
+  },
+  "auth": {
+    "title": "Acceso del equipo",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Entrar",
+    "invalid": "Correo electrónico o contraseña no válidos.",
+    "logout": "Cerrar sesión"
+  },
+  "staff": {
+    "title": "Área del equipo",
+    "signedInAs": "Sesión iniciada como {{email}}",
+    "roles": "Roles en la plataforma: {{roles}}",
+    "rolesNote": "Los roles en la plataforma son solo permisos de software, no roles institucionales de Wakanze.",
+    "djangoAdmin": "Abrir el back-office (Django Admin)",
+    "upcoming": "La aprobación del boletín y el panel de analítica aparecerán aquí en las próximas fases."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "back": "Volver al inicio"
+  },
+  "language": {
+    "label": "Idioma"
+  }
+}
