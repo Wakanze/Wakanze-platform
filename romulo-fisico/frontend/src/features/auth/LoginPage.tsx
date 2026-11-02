@@ -2,6 +2,7 @@ import { type FormEvent, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useLocation, useNavigate } from 'react-router'
 import { ApiError } from '../../api/client.ts'
+import { usePageMeta } from '../../lib/usePageMeta.ts'
 import { useAuth } from './useAuth.ts'
 
 const inputClass =
@@ -9,6 +10,7 @@ const inputClass =
 
 export default function LoginPage() {
   const { t } = useTranslation()
+  usePageMeta(t('auth.title'))
   const { login } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
