@@ -1,1 +1,66 @@
 @import "tailwindcss";
+
+/*
+ * Wakanze design tokens: "Terra & Esmeralda".
+ * Sand backgrounds, deep emerald for brand and actions, clay and ochre as accents.
+ * Text colours keep WCAG 2.1 AA contrast on the sand and white surfaces.
+ */
+@theme {
+  --font-display: "Fraunces Variable", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --color-sand-50: #fbf8f3;
+  --color-sand-100: #f7f2ea;
+  --color-sand-200: #ede4d6;
+  --color-sand-300: #dccdb6;
+
+  --color-forest-50: #ecf5f1;
+  --color-forest-100: #d3e9df;
+  --color-forest-600: #0a6b50;
+  --color-forest-700: #075a43;
+  --color-forest-800: #064e3b;
+  --color-forest-900: #043a2c;
+  --color-forest-950: #02261d;
+
+  --color-clay-50: #fdf1ea;
+  --color-clay-100: #fbe3d5;
+  --color-clay-500: #d4571f;
+  --color-clay-600: #c2410c;
+  --color-clay-700: #9a3412;
+
+  --color-ochre-100: #fbf0d9;
+  --color-ochre-300: #f0cd7e;
+  --color-ochre-500: #d69e2e;
+  --color-ochre-700: #8a5a0a;
+
+  --color-ink-900: #1c1917;
+  --color-ink-700: #44403c;
+  --color-ink-500: #6b645e;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-sand-100 font-sans text-ink-900 antialiased;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-forest-700;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+    }
+  }
+}
