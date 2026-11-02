@@ -1,0 +1,69 @@
+# GitHub only runs workflows from the repository root (.github/workflows/).
+# It is kept inside romulo-fisico/ so nothing outside this folder changes; to
+# enable it, copy it to the root .github/workflows/ (paths already point here).
+name: CI (romulo-fisico)
+
+on:
+  push:
+    branches: [main]
+    paths: ["romulo-fisico/**"]
+  pull_request:
+    paths: ["romulo-fisico/**"]
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: romulo-fisico/backend
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: wakanze
+          POSTGRES_USER: wakanze
+          POSTGRES_PASSWORD: wakanze
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U wakanze"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+    env:
+      DJANGO_SECRET_KEY: ci-only-not-secret
+      DATABASE_URL: postgres://wakanze:wakanze@localhost:5432/wakanze
+      DJANGO_SETTINGS_MODULE: config.settings.test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: romulo-fisico/backend/requirements/*.txt
+      - run: pip install -r requirements/dev.txt
+      - name: Lint
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Django system checks
+        run: python manage.py check --fail-level WARNING
+      - name: Migrations are committed
+        run: python manage.py makemigrations --check --dry-run
+      - name: Tests
+        run: pytest
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: romulo-fisico/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: romulo-fisico/frontend/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
