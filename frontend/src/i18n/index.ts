@@ -5,12 +5,26 @@ import pt from './locales/pt.json'
 import fr from './locales/fr.json'
 import es from './locales/es.json'
 
+/** Languages are grouped so people can find theirs as the list grows. */
+export const LANGUAGE_GROUPS = ['african', 'european', 'creole'] as const
+export type LanguageGroup = (typeof LANGUAGE_GROUPS)[number]
+
 export const SUPPORTED_LANGUAGES = [
-  { code: 'en', label: 'English' },
-  { code: 'pt', label: 'Português' },
-  { code: 'fr', label: 'Français' },
-  { code: 'es', label: 'Español' },
-] as const
+  { code: 'en', label: 'English', group: 'european' },
+  { code: 'pt', label: 'Português', group: 'european' },
+  { code: 'fr', label: 'Français', group: 'european' },
+  { code: 'es', label: 'Español', group: 'european' },
+] as const satisfies readonly { code: string; label: string; group: LanguageGroup }[]
+
+/** Shown in the switcher as "coming soon" until their translation files exist. */
+export const UPCOMING_LANGUAGES: readonly { code: string; label: string; group: LanguageGroup }[] = [
+  { code: 'sw', label: 'Kiswahili', group: 'african' },
+  { code: 'yo', label: 'Yorùbá', group: 'african' },
+  { code: 'kmb', label: 'Kimbundu', group: 'african' },
+  { code: 'kea', label: 'Kabuverdianu', group: 'creole' },
+  { code: 'ht', label: 'Kreyòl ayisyen', group: 'creole' },
+  { code: 'jam', label: 'Patwa', group: 'creole' },
+]
 
 const STORAGE_KEY = 'wakanze-language'
 

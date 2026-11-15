@@ -1,1 +1,59 @@
 @import "tailwindcss";
+
+/*
+ * Wakanze design tokens, taken from the official logo and the Wakanze Store:
+ * black and white as the base, gold for what matters most, and the flame colour
+ * used sparingly. Text colours keep WCAG 2.1 AA contrast on white and paper.
+ */
+@theme {
+  --font-display: "Montserrat Variable", "Segoe UI", Roboto, system-ui, sans-serif;
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --color-paper-50: #ffffff;
+  --color-paper-100: #faf8f4;
+  --color-paper-200: #ece8e1;
+  --color-paper-300: #d9d3c9;
+
+  --color-ink-500: #66615a;
+  --color-ink-700: #3f3b36;
+  --color-ink-800: #242220;
+  --color-ink-900: #171615;
+  --color-ink-950: #0b0b0b;
+
+  --color-gold-50: #fdf8ea;
+  --color-gold-100: #f8edcc;
+  --color-gold-300: #ecc965;
+  --color-gold-500: #d4a62a;
+  --color-gold-600: #b88a1b;
+  --color-gold-700: #7d5d0f;
+
+  --color-flame-500: #e8501f;
+  --color-flame-600: #c93d14;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper-100 font-sans text-ink-900 antialiased;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-gold-600;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+    }
+  }
+}

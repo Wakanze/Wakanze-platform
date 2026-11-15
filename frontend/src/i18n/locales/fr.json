@@ -1,13 +1,279 @@
 {
+  "common": {
+    "loading": "Chargement…",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "skipToContent": "Aller au contenu",
+    "mockupBanner": "Maquette pour relecture : les contenus, événements et personnes sont fictifs et les formulaires n'envoient rien.",
+    "opensInNewTab": "(s'ouvre dans un nouvel onglet)"
+  },
   "nav": {
+    "label": "Principale",
     "home": "Accueil",
-    "articles": "Articles"
+    "about": "À propos",
+    "articles": "Articles",
+    "events": "Événements",
+    "join": "Participer",
+    "open": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "supporters": "Soutiens",
+    "donate": "Faire un don",
+    "store": "Boutique"
   },
   "home": {
-    "title": "Wakanze",
-    "subtitle": "Portail public bientôt disponible."
+    "metaDescription": "Wakanze relie les peuples africains et la diaspora africaine à travers l'histoire, la géographie, la culture et les opportunités.",
+    "kicker": "L’Afrique et sa diaspora",
+    "title": "Un peuple. Une flamme.",
+    "subtitle": "Wakanze relie les peuples africains et la diaspora à travers l'histoire, la géographie, la culture et les opportunités. Lisez les histoires, trouvez un événement près de chez vous et choisissez comment participer.",
+    "primaryCta": "Participer",
+    "secondaryCta": "Lire les histoires",
+    "pillarsTitle": "Ce que fait Wakanze",
+    "pillars": {
+      "memory": {
+        "title": "Histoire et mémoire",
+        "body": "Des récits, des archives et une mémoire familiale qui racontent l'histoire africaine de l'intérieur."
+      },
+      "culture": {
+        "title": "Culture et créateurs",
+        "body": "Les écrivains, musiciens et cinéastes qui façonnent aujourd'hui la culture africaine et de la diaspora."
+      },
+      "connection": {
+        "title": "Liens et opportunités",
+        "body": "Des événements et des cercles locaux qui transforment une diaspora dispersée en réseau."
+      }
+    },
+    "articlesKicker": "Dernières histoires",
+    "articlesTitle": "Lire, puis partager",
+    "allArticles": "Tous les articles",
+    "eventsKicker": "À venir",
+    "eventsTitle": "Retrouvons-nous en personne ou en ligne",
+    "allEvents": "Tous les événements",
+    "waysKicker": "Votre prochaine étape",
+    "waysTitle": "Six façons de participer",
+    "waysCta": "Dites-le-nous",
+    "emblemAlt": "L’emblème de la flamme dorée de Wakanze",
+    "supportTitle": "Soutenir Wakanze",
+    "storeKicker": "Boutique Wakanze",
+    "storeTitle": "Portez le message",
+    "storeBody": "Produits officiels : chaque t-shirt et chaque tasse aident à financer le projet.",
+    "storeCta": "Visiter la boutique",
+    "donateKicker": "Faire un don",
+    "donateTitle": "Gardez la flamme allumée",
+    "donateBody": "Wakanze est indépendant. Un petit don nous aide à publier, filmer et rassembler les gens.",
+    "donateCta": "Soutenir Wakanze",
+    "supportersKicker": "Soutiens",
+    "supportersTitle": "Les voix derrière Wakanze",
+    "allSupporters": "Tous les soutiens"
+  },
+  "about": {
+    "kicker": "À propos de Wakanze",
+    "title": "Un espace commun numérique pour le monde africain",
+    "intro": "Wakanze est un projet de long terme pour relier les peuples africains et la diaspora à travers l'histoire, la géographie, la culture, le savoir et les générations.",
+    "body1": "L'histoire de la diaspora africaine n'est pas seulement une histoire de déplacement. C'est aussi une histoire de création : de nouvelles cultures, de nouvelles langues, de nouvelles communautés sur tous les continents.",
+    "body2": "Wakanze commence par quelque chose de simple : un lieu pour lire ces histoires, rencontrer celles et ceux qui les racontent et trouver, près de chez vous, d'autres personnes qui partagent les mêmes intérêts.",
+    "quote": "D'une diaspora d'individus à un réseau de communautés.",
+    "body3": "Tout le reste, des cercles locaux à l'éducation et aux projets communs, grandit grâce à celles et ceux qui choisissent de participer. C'est pourquoi la première chose que nous demandons, c'est comment vous aimeriez vous impliquer.",
+    "journeyTitle": "Comment ça marche",
+    "steps": {
+      "discover": {
+        "title": "Découvrir",
+        "body": "Lisez des histoires et trouvez des événements et des créateurs."
+      },
+      "connect": {
+        "title": "Rester en contact",
+        "body": "Recevez la newsletter avec le meilleur de chaque mois."
+      },
+      "participate": {
+        "title": "Participer",
+        "body": "Dites-nous comment vous voulez vous impliquer."
+      },
+      "build": {
+        "title": "Construire ensemble",
+        "body": "Les cercles locaux et les projets grandissent à partir de là."
+      }
+    }
+  },
+  "articles": {
+    "kicker": "Histoires",
+    "title": "Articles",
+    "intro": "Histoire, culture, communauté et opportunités, du plus récent au plus ancien.",
+    "back": "Tous les articles",
+    "by": "Par {{author}}",
+    "readTime_one": "{{count}} min de lecture",
+    "readTime_other": "{{count}} min de lecture",
+    "more": "Continuer la lecture",
+    "newsletterTitle": "Cette histoire vous a plu ?",
+    "newsletterBody": "Recevez les meilleures histoires et les événements une fois par mois.",
+    "categories": {
+      "history": "Histoire",
+      "culture": "Culture",
+      "community": "Communauté",
+      "opportunity": "Opportunités"
+    }
+  },
+  "events": {
+    "kicker": "Événements",
+    "title": "Événements à venir",
+    "intro": "Promenades, ateliers, conférences et rencontres, en ville et en ligne. L'inscription se fait sur la page de chaque organisateur.",
+    "filtersLabel": "Filtrer les événements",
+    "from": "Du",
+    "to": "Au",
+    "region": "Région",
+    "regions": {
+      "all": "Toutes les régions",
+      "africa": "Afrique",
+      "europe": "Europe",
+      "americas": "Amériques",
+      "online": "En ligne"
+    },
+    "clear": "Effacer les filtres",
+    "count_one": "{{count}} événement",
+    "count_other": "{{count}} événements",
+    "empty": "Aucun événement ne correspond à ces filtres. Essayez une période plus large ou une autre région.",
+    "online": "En ligne",
+    "register": "S'inscrire",
+    "noRegistration": "Entrée libre, sans inscription"
+  },
+  "supporters": {
+    "kicker": "Soutiens",
+    "title": "Les personnes derrière Wakanze",
+    "intro": "Des créateurs et des voix qui soutiennent Wakanze et partagent des contenus sur l’histoire, la culture et la vie en Afrique et dans la diaspora. Trouvez-les par thème ou par pays et suivez-les sur leurs propres chaînes.",
+    "filterLabel": "Filtrer les soutiens",
+    "topic": "Thème",
+    "country": "Pays",
+    "allCountries": "Tous les pays",
+    "count_one": "{{count}} soutien",
+    "count_other": "{{count}} soutiens",
+    "empty": "Aucun soutien ne correspond encore à ces filtres.",
+    "topics": {
+      "all": "Tous les thèmes",
+      "history": "Histoire",
+      "culture": "Culture",
+      "music": "Musique",
+      "business": "Entreprise",
+      "language": "Langues",
+      "film": "Cinéma"
+    },
+    "joinTitle": "Vous soutenez Wakanze ?",
+    "joinBody": "Les soutiens sont invités par l’équipe Wakanze. Si vous créez des contenus liés, parlez-nous de votre travail.",
+    "joinCta": "Parlez-nous de votre travail"
+  },
+  "donate": {
+    "kicker": "Soutenir Wakanze",
+    "title": "Aidez-nous à garder la flamme allumée",
+    "intro": "Wakanze est financé par les dons et par la Boutique Wakanze. Les deux fonctionnent sur des plateformes externes de confiance : vous ne nous transmettez jamais vos données de paiement.",
+    "giveKicker": "Faire un don",
+    "giveTitle": "Faire un don",
+    "giveBody": "Chaque contribution nous aide à publier des histoires, filmer des entretiens et organiser des événements pour la communauté.",
+    "via": "Donner avec {{name}}",
+    "shopKicker": "Boutique Wakanze",
+    "shopTitle": "Acheter des produits",
+    "shopBody": "Portez le logo Wakanze avec fierté. Une partie de chaque commande revient au projet.",
+    "shopCta": "Visiter la boutique",
+    "otherTitle": "Vous ne pouvez pas donner maintenant ?",
+    "otherBody": "Faire du bénévolat, partager nos contenus ou nous dire comment vous voulez participer aide tout autant.",
+    "otherCta": "Autres façons de participer"
+  },
+  "join": {
+    "kicker": "Participer",
+    "title": "Comment aimeriez-vous participer ?",
+    "intro": "Choisissez une ou plusieurs options. Un membre de l'équipe lit chaque réponse et vous recontacte.",
+    "nextTitle": "Et ensuite ?",
+    "next": {
+      "review": "Vous recevez un e-mail confirmant que nous avons bien reçu votre réponse.",
+      "contact": "Une personne de l'équipe l'examine et vous contacte personnellement.",
+      "connect": "Nous vous mettons en relation avec les bonnes personnes, l'événement ou le cercle près de chez vous."
+    },
+    "notMembership": "Ce formulaire enregistre votre intérêt. Ce n'est pas une demande d'adhésion et il ne crée pas de compte."
+  },
+  "interest": {
+    "categoriesLegend": "J'aimerais…",
+    "categoriesHint": "Choisissez toutes les options qui vous correspondent.",
+    "categories": {
+      "member": {
+        "title": "Devenir membre",
+        "body": "Faire partie de Wakanze pendant qu'elle prend forme."
+      },
+      "club": {
+        "title": "Rejoindre ou créer un cercle",
+        "body": "Rencontrer régulièrement des personnes près de chez vous."
+      },
+      "event": {
+        "title": "Participer à des événements",
+        "body": "Être informé en premier des événements de votre région."
+      },
+      "creator": {
+        "title": "Devenir créateur",
+        "body": "Partager votre travail avec la communauté."
+      },
+      "volunteer": {
+        "title": "Être bénévole",
+        "body": "Donner un peu de temps et de compétences."
+      },
+      "partner": {
+        "title": "Devenir partenaire",
+        "body": "Organisations, écoles et entreprises."
+      }
+    },
+    "name": "Nom complet",
+    "email": "E-mail",
+    "location": "Où habitez-vous ?",
+    "locationPlaceholder": "Ville, pays",
+    "privacy": "Nous utilisons ces informations uniquement pour vous répondre. Seuls les membres autorisés de l'équipe peuvent les voir, et vous pouvez nous demander de les supprimer à tout moment.",
+    "submit": "Envoyer",
+    "errors": {
+      "name": "Indiquez votre nom.",
+      "email": "Saisissez une adresse e-mail valide.",
+      "location": "Dites-nous où vous habitez.",
+      "categories": "Choisissez au moins une option."
+    },
+    "thanksTitle": "Merci, {{name}}.",
+    "thanksBody": "Nous avons reçu votre réponse et envoyé une confirmation à {{email}}. Une personne de l'équipe vous contactera."
+  },
+  "newsletter": {
+    "emailLabel": "Adresse e-mail",
+    "placeholder": "votre@email.com",
+    "submit": "S'abonner",
+    "note": "Un e-mail par mois. Nous envoyons d'abord un lien de confirmation, et vous pouvez vous désabonner en un clic.",
+    "invalidEmail": "Saisissez une adresse e-mail valide.",
+    "checkInbox": "Consultez votre boîte de réception",
+    "sentTo": "Nous avons envoyé un lien de confirmation à {{email}}. Cliquez dessus pour commencer à recevoir la newsletter."
+  },
+  "cta": {
+    "title": "Restez proche des histoires",
+    "body": "Les meilleurs articles, événements et créateurs, une fois par mois. Ou dites-nous comment vous aimeriez participer.",
+    "join": "Participer"
+  },
+  "footer": {
+    "mission": "Relier les peuples africains et la diaspora africaine à travers l'histoire, la géographie, la culture et les opportunités.",
+    "explore": "Explorer",
+    "participate": "Participer",
+    "partner": "Devenir partenaire",
+    "copyright": "© {{year}} Wakanze",
+    "tagline": "Un peuple. Une flamme.",
+    "follow": "Suivez-nous"
+  },
+  "subscription": {
+    "confirmed": {
+      "title": "Abonnement confirmé",
+      "body": "Merci d'avoir confirmé. La prochaine newsletter arrivera au début du mois prochain.",
+      "cta": "Lire les dernières histoires"
+    },
+    "unsubscribed": {
+      "title": "Vous êtes désabonné",
+      "body": "Vous ne recevrez plus la newsletter. Vous pouvez vous réabonner à tout moment depuis n'importe quelle page."
+    }
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "back": "Retour à l'accueil"
   },
   "language": {
-    "label": "Langue"
+    "label": "Langue",
+    "groups": {
+      "african": "Langues africaines",
+      "european": "Langues européennes",
+      "creole": "Langues créoles"
+    },
+    "comingSoon": "bientôt"
   }
 }
