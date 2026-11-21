@@ -3,9 +3,9 @@
 Public Gateway of the Wakanze platform: React 19, TypeScript, Vite, Tailwind CSS 4,
 react-router 7 and i18next (English, Portuguese, French, Spanish).
 
-This is a clickable mockup. Articles, events and supporters are fictitious (`src/mocks/`),
-and the newsletter and interest forms only log to the browser console. The Store and the
-donation links are real and open the external platforms.
+Everything visible uses real data: the latest videos come from the Wakanze YouTube channel, and
+the Store and donation links open the real platforms. The newsletter and join forms are not
+connected yet (see "Not built yet"), and a banner at the top of every page says so.
 
 ## Run
 
@@ -13,6 +13,11 @@ donation links are real and open the external platforms.
 npm install
 npm run dev        # http://localhost:5173
 ```
+
+`npm run dev` and `npm run build` first run `scripts/fetch-latest-videos.mjs`, which saves the
+three newest videos from the channel's public feed to `src/data/latest-videos.json`. No API key
+is needed. If YouTube cannot be reached, the saved list is kept. Rebuild the site to show newer
+videos.
 
 ## Checks
 
@@ -26,14 +31,16 @@ npm run build
 ## Structure
 
 ```
+scripts/          build-time helpers (latest YouTube videos)
 src/
 ├── app/          routing and the public layout
 ├── pages/public/ one file per route
 ├── components/   shared UI (header, footer, cards, buttons in styles.ts)
-├── features/     logic with its own tests: events, supporters, lead capture, interest form
-├── i18n/         setup, language groups and the locale files
+├── features/     logic with its own tests: videos, lead capture, interest form, events, supporters
+├── i18n/         setup, language detection, language groups and the locale files
 ├── lib/          helpers and external links (store, donations, social)
-├── mocks/        illustrative data until the API exists
+├── data/         data saved at build time (latest videos)
+├── mocks/        sample data for the hidden sections
 └── assets/       official logo files
 ```
 
@@ -41,16 +48,19 @@ src/
 
 | Route | Page |
 |---|---|
-| `/` | Home: mission, Store and Donate, latest articles, events, supporters, ways to take part |
+| `/` | Home: mission, Store and Donate, latest videos, ways to take part |
 | `/about` | About Wakanze |
-| `/articles`, `/articles/:slug` | Articles, newest first |
-| `/events` | Upcoming events with date and region filters |
-| `/supporters` | Supporters chosen by the team, filterable by topic and country |
-| `/donate` | Donations (Buy Me a Coffee, Cash App) and the Store |
+| `/videos` | The three latest videos from the YouTube channel |
+| `/support` | Support Wakanze: donations (Buy Me a Coffee, Cash App) and the Store (`/donate` redirects here) |
 | `/join` | Interest form with six ways to take part (`/join?interest=creator` preselects one) |
 | `/subscribe/confirmed`, `/unsubscribe` | Pages the newsletter emails link to |
 
-The Store (Bonfire) opens in a new tab from the menu.
+Videos open in a privacy-enhanced YouTube player (`youtube-nocookie.com`) only when the visitor
+presses play. Until then only the thumbnail loads.
+
+**Hidden for now:** Articles, Events and Supporters have no real content yet. Their pages stay in
+`pages/public/` with sample data in `src/mocks/`, but they have no route and are not linked
+anywhere. To turn one back on, add its route in `src/app/App.tsx` once it has real content.
 
 ## Design
 
@@ -61,13 +71,18 @@ The tokens are in `src/index.css`.
 
 ## Languages
 
-`src/i18n/index.ts` groups languages into African, European and Creole. Languages without a
-translation yet are listed as "coming soon". To add one, create its file in
-`src/i18n/locales/` and move it from `UPCOMING_LANGUAGES` to `SUPPORTED_LANGUAGES`.
+The site shows itself in the visitor's browser language when it is available (for example
+`pt-BR` shows Portuguese), and falls back to English. A language picked by hand in the selector
+is remembered for the next visit.
+
+`src/i18n/index.ts` groups languages into Afrika, Europe and Asia. A group appears in the
+selector once it has at least one translated language. To add a language, create its file in
+`src/i18n/locales/`, register it in `resources`, and add it to `SUPPORTED_LANGUAGES` with its
+group. Right-to-left languages such as Arabic switch the page direction automatically.
 A test checks that every locale file has the same keys.
 
 ## Not built yet
 
-- Sending emails: the newsletter and interest forms will use an external email service, still
-  to be chosen.
-- Back-end: none yet. When it arrives, the mock data in `src/mocks/` is replaced by API calls.
+- Sending emails: the newsletter and join forms will use an external email service, still to
+  be chosen. MailerLite is the proposed choice.
+- Back-end: none yet.
