@@ -1,64 +1,67 @@
 import i18n from 'i18next'
+import LanguageDetector from 'i18next-browser-languagedetector'
 import { initReactI18next } from 'react-i18next'
 import en from './locales/en.json'
 import pt from './locales/pt.json'
 import fr from './locales/fr.json'
 import es from './locales/es.json'
 
-/** Languages are grouped so people can find theirs as the list grows. */
-export const LANGUAGE_GROUPS = ['african', 'european', 'creole'] as const
+/** Languages are grouped by region so people can find theirs as the list grows. */
+export const LANGUAGE_GROUPS = ['africa', 'europe', 'asia'] as const
 export type LanguageGroup = (typeof LANGUAGE_GROUPS)[number]
 
 export const SUPPORTED_LANGUAGES = [
-  { code: 'en', label: 'English', group: 'european' },
-  { code: 'pt', label: 'Português', group: 'european' },
-  { code: 'fr', label: 'Français', group: 'european' },
-  { code: 'es', label: 'Español', group: 'european' },
+  { code: 'en', label: 'English', group: 'europe' },
+  { code: 'pt', label: 'Português', group: 'europe' },
+  { code: 'fr', label: 'Français', group: 'europe' },
+  { code: 'es', label: 'Español', group: 'europe' },
 ] as const satisfies readonly { code: string; label: string; group: LanguageGroup }[]
 
-/** Shown in the switcher as "coming soon" until their translation files exist. */
-export const UPCOMING_LANGUAGES: readonly { code: string; label: string; group: LanguageGroup }[] = [
-  { code: 'sw', label: 'Kiswahili', group: 'african' },
-  { code: 'yo', label: 'Yorùbá', group: 'african' },
-  { code: 'kmb', label: 'Kimbundu', group: 'african' },
-  { code: 'kea', label: 'Kabuverdianu', group: 'creole' },
-  { code: 'ht', label: 'Kreyòl ayisyen', group: 'creole' },
-  { code: 'jam', label: 'Patwa', group: 'creole' },
-]
+export type LanguageCode = (typeof SUPPORTED_LANGUAGES)[number]['code']
 
+/** Only a language the visitor picks by hand is remembered; otherwise the browser's language wins. */
 const STORAGE_KEY = 'wakanze-language'
 
-function readSavedLanguage(): string {
+i18n
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources: {
+      en: { translation: en },
+      pt: { translation: pt },
+      fr: { translation: fr },
+      es: { translation: es },
+    },
+    supportedLngs: SUPPORTED_LANGUAGES.map((l) => l.code),
+    // pt-BR, fr-CA, es-419… fall back to pt, fr, es
+    nonExplicitSupportedLngs: true,
+    load: 'languageOnly',
+    fallbackLng: 'en',
+    detection: {
+      order: ['localStorage', 'navigator', 'htmlTag'],
+      lookupLocalStorage: STORAGE_KEY,
+      caches: [],
+    },
+    interpolation: { escapeValue: false },
+  })
+
+/** Switches language and remembers the choice for the next visit. */
+export function chooseLanguage(code: LanguageCode) {
   try {
-    const saved = localStorage.getItem(STORAGE_KEY)
-    const isSupported = SUPPORTED_LANGUAGES.some((l) => l.code === saved)
-    return isSupported && saved ? saved : 'en'
+    localStorage.setItem(STORAGE_KEY, code)
   } catch {
-    return 'en'
+    // Storage can be blocked; the choice still applies to this visit.
   }
+  return i18n.changeLanguage(code)
 }
 
-i18n.use(initReactI18next).init({
-  resources: {
-    en: { translation: en },
-    pt: { translation: pt },
-    fr: { translation: fr },
-    es: { translation: es },
-  },
-  lng: readSavedLanguage(),
-  fallbackLng: 'en',
-  interpolation: { escapeValue: false },
-})
-
-i18n.on('languageChanged', (lng) => {
+function applyToDocument(lng: string) {
   document.documentElement.lang = lng
-  try {
-    localStorage.setItem(STORAGE_KEY, lng)
-  } catch {
-    // Storage can be blocked; the app still works without it.
-  }
-})
+  // Ready for right-to-left languages such as Arabic.
+  document.documentElement.dir = i18n.dir(lng)
+}
 
-document.documentElement.lang = i18n.language
+i18n.on('languageChanged', applyToDocument)
+applyToDocument(i18n.resolvedLanguage ?? 'en')
 
 export default i18n
