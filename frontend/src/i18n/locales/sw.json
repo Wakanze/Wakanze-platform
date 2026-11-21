@@ -1,0 +1,282 @@
+{
+  "common": {
+    "loading": "Inapakia…",
+    "error": "Hitilafu imetokea. Tafadhali jaribu tena.",
+    "skipToContent": "Ruka hadi maudhui",
+    "mockupBanner": "Onyesho la awali: fomu za jarida na za kujiunga bado hazijaunganishwa.",
+    "opensInNewTab": "(inafunguka kwenye kichupo kipya)"
+  },
+  "nav": {
+    "label": "Kuu",
+    "home": "Mwanzo",
+    "about": "Kuhusu",
+    "articles": "Makala",
+    "events": "Matukio",
+    "join": "Shiriki",
+    "open": "Fungua menyu",
+    "close": "Funga menyu",
+    "supporters": "Wafuasi",
+    "donate": "Changia",
+    "store": "Duka",
+    "videos": "Video mpya",
+    "support": "Saidia Wakanze"
+  },
+  "home": {
+    "metaDescription": "Wakanze inaunganisha watu wa Afrika na diaspora ya Kiafrika kupitia historia, jiografia, utamaduni na fursa.",
+    "kicker": "Afrika na diaspora yake",
+    "title": "Watu wamoja. Mwali mmoja.",
+    "subtitle": "Wakanze inaunganisha watu wa Afrika na diaspora kupitia historia, jiografia, utamaduni na fursa. Tazama video zetu mpya na uchague jinsi unavyotaka kushiriki.",
+    "primaryCta": "Shiriki",
+    "secondaryCta": "Tazama video",
+    "pillarsTitle": "Wakanze inafanya nini",
+    "pillars": {
+      "memory": {
+        "title": "Historia na kumbukumbu",
+        "body": "Hadithi, nyaraka na kumbukumbu za familia zinazosimulia historia ya Afrika kutoka ndani."
+      },
+      "culture": {
+        "title": "Utamaduni na wabunifu",
+        "body": "Waandishi, wanamuziki na watengenezaji filamu wanaounda utamaduni wa Afrika na diaspora leo."
+      },
+      "connection": {
+        "title": "Muunganiko na fursa",
+        "body": "Matukio na vikundi vya mtaani vinavyogeuza diaspora iliyotawanyika kuwa mtandao mmoja."
+      }
+    },
+    "waysKicker": "Hatua yako inayofuata",
+    "waysTitle": "Njia sita za kushiriki",
+    "waysCta": "Tuambie",
+    "emblemAlt": "Nembo ya mwali wa dhahabu ya Wakanze",
+    "supportTitle": "Saidia Wakanze",
+    "storeKicker": "Duka la Wakanze",
+    "storeTitle": "Vaa ujumbe",
+    "storeBody": "Bidhaa rasmi: kila fulana na kikombe husaidia kufadhili mradi.",
+    "storeCta": "Tembelea duka",
+    "donateKicker": "Changia",
+    "donateTitle": "Uweke mwali hai",
+    "donateBody": "Wakanze ni huru. Mchango mdogo unatusaidia kuchapisha, kurekodi video na kuwaleta watu pamoja.",
+    "donateCta": "Saidia Wakanze",
+    "videosKicker": "Kwenye YouTube",
+    "videosTitle": "Video mpya",
+    "allVideos": "Video zote"
+  },
+  "videos": {
+    "kicker": "YouTube",
+    "title": "Video mpya",
+    "intro": "Video za hivi karibuni kutoka chaneli ya Wakanze. Zitazame hapa au kwenye YouTube.",
+    "play": "Cheza: {{title}}",
+    "watchOnYoutube": "Tazama kwenye YouTube",
+    "allOnYoutube": "Tazama video zote kwenye YouTube"
+  },
+  "about": {
+    "kicker": "Kuhusu Wakanze",
+    "title": "Uwanja wa pamoja wa kidijitali kwa ulimwengu wa Kiafrika",
+    "intro": "Wakanze ni mradi wa muda mrefu wa kuunganisha watu wa Afrika na diaspora kupitia historia, jiografia, utamaduni, maarifa na vizazi.",
+    "body1": "Historia ya diaspora ya Kiafrika si hadithi ya kuhamishwa tu. Pia ni hadithi ya uumbaji: tamaduni mpya, lugha mpya na jumuiya mpya katika kila bara.",
+    "body2": "Wakanze inaanza na jambo rahisi: mahali pa kutazama hadithi hizo, kukutana na watu wanaozisimulia na kuwapata wengine wanaojali mambo yale yale.",
+    "quote": "Kutoka diaspora ya watu binafsi hadi mtandao wa jumuiya.",
+    "body3": "Kila kitu kingine, kuanzia vikundi vya mtaani hadi elimu na miradi ya pamoja, kinakua kutokana na watu wanaochagua kushiriki. Ndiyo maana jambo la kwanza tunalokuuliza ni jinsi ungependa kushiriki.",
+    "journeyTitle": "Jinsi inavyofanya kazi",
+    "steps": {
+      "discover": {
+        "title": "Gundua",
+        "body": "Tazama video zetu na ufuate Wakanze kwenye mitandao ya kijamii."
+      },
+      "connect": {
+        "title": "Endelea kuwasiliana",
+        "body": "Pokea jarida lenye mambo bora ya kila mwezi."
+      },
+      "participate": {
+        "title": "Shiriki",
+        "body": "Tuambie jinsi unavyotaka kushiriki."
+      },
+      "build": {
+        "title": "Jenga pamoja",
+        "body": "Vikundi vya mtaani na miradi hukua kuanzia hapo."
+      }
+    }
+  },
+  "articles": {
+    "kicker": "Hadithi",
+    "title": "Makala",
+    "intro": "Historia, utamaduni, jumuiya na fursa, za hivi karibuni kwanza.",
+    "back": "Makala zote",
+    "by": "Na {{author}}",
+    "readTime_one": "Dakika {{count}} ya kusoma",
+    "readTime_other": "Dakika {{count}} za kusoma",
+    "more": "Endelea kusoma",
+    "newsletterTitle": "Umeipenda hadithi hii?",
+    "newsletterBody": "Pokea hadithi na matukio bora mara moja kwa mwezi.",
+    "categories": {
+      "history": "Historia",
+      "culture": "Utamaduni",
+      "community": "Jumuiya",
+      "opportunity": "Fursa"
+    }
+  },
+  "events": {
+    "kicker": "Matukio",
+    "title": "Matukio yajayo",
+    "intro": "Matembezi, warsha, mazungumzo na mikutano, mijini na mtandaoni. Usajili hufanyika kwenye ukurasa wa kila mwandaaji.",
+    "filtersLabel": "Chuja matukio",
+    "from": "Kuanzia",
+    "to": "Hadi",
+    "region": "Eneo",
+    "regions": {
+      "all": "Maeneo yote",
+      "africa": "Afrika",
+      "europe": "Ulaya",
+      "americas": "Amerika",
+      "online": "Mtandaoni"
+    },
+    "clear": "Futa vichujio",
+    "count_one": "Tukio {{count}}",
+    "count_other": "Matukio {{count}}",
+    "empty": "Hakuna matukio yanayolingana na vichujio hivi. Jaribu kipindi kirefu zaidi au eneo jingine.",
+    "online": "Mtandaoni",
+    "register": "Jisajili",
+    "noRegistration": "Kuingia ni bure, hakuna haja ya kujisajili"
+  },
+  "supporters": {
+    "kicker": "Wafuasi",
+    "title": "Watu walio nyuma ya Wakanze",
+    "intro": "Wabunifu na sauti zinazoiunga mkono Wakanze na kushiriki maudhui kuhusu historia, utamaduni na maisha ya Afrika na diaspora. Watafute kwa mada au nchi na uwafuate kwenye chaneli zao.",
+    "filterLabel": "Chuja wafuasi",
+    "topic": "Mada",
+    "country": "Nchi",
+    "allCountries": "Nchi zote",
+    "count_one": "Mfuasi {{count}}",
+    "count_other": "Wafuasi {{count}}",
+    "empty": "Bado hakuna wafuasi wanaolingana na vichujio hivi.",
+    "topics": {
+      "all": "Mada zote",
+      "history": "Historia",
+      "culture": "Utamaduni",
+      "music": "Muziki",
+      "business": "Biashara",
+      "language": "Lugha",
+      "film": "Filamu"
+    },
+    "joinTitle": "Je, unaiunga mkono Wakanze?",
+    "joinBody": "Wafuasi hualikwa na timu ya Wakanze. Ikiwa unatengeneza maudhui yanayohusiana, tuambie kuhusu kazi yako.",
+    "joinCta": "Tuambie kuhusu kazi yako"
+  },
+  "donate": {
+    "kicker": "Saidia Wakanze",
+    "title": "Tusaidie kuuweka mwali hai",
+    "intro": "Wakanze inafadhiliwa na michango na Duka la Wakanze. Zote mbili zinaendeshwa kwenye majukwaa ya nje yanayoaminika, kwa hivyo hutushirikishi kamwe taarifa zako za malipo.",
+    "giveKicker": "Changia",
+    "giveTitle": "Toa mchango",
+    "giveBody": "Kila mchango unatusaidia kuchapisha hadithi, kurekodi mahojiano na kuandaa matukio kwa ajili ya jumuiya.",
+    "via": "Changia kupitia {{name}}",
+    "shopKicker": "Duka la Wakanze",
+    "shopTitle": "Nunua bidhaa",
+    "shopBody": "Vaa nembo ya Wakanze kwa fahari. Sehemu ya kila oda inaenda kwenye mradi.",
+    "shopCta": "Tembelea duka",
+    "otherTitle": "Huwezi kuchangia kwa sasa?",
+    "otherBody": "Kujitolea, kushiriki maudhui yetu au kutuambia jinsi unavyotaka kushiriki kunasaidia vilevile.",
+    "otherCta": "Njia nyingine za kushiriki"
+  },
+  "join": {
+    "kicker": "Shiriki",
+    "title": "Ungependa kushiriki vipi?",
+    "intro": "Chagua chaguo moja au zaidi. Mwanatimu husoma kila jibu na kuwasiliana nawe.",
+    "nextTitle": "Kinachofuata",
+    "next": {
+      "review": "Utapokea barua pepe inayothibitisha kuwa tumepokea jibu lako.",
+      "contact": "Mtu kutoka timu atalipitia na kuwasiliana nawe binafsi.",
+      "connect": "Tutakuunganisha na watu, tukio au kikundi kinachofaa karibu nawe."
+    },
+    "notMembership": "Fomu hii inarekodi nia yako. Si ombi la uanachama na haifungui akaunti."
+  },
+  "interest": {
+    "categoriesLegend": "Ningependa…",
+    "categoriesHint": "Chagua yote yanayokuhusu.",
+    "categories": {
+      "member": {
+        "title": "Kuwa mwanachama",
+        "body": "Kuwa sehemu ya Wakanze inapoendelea kujengwa."
+      },
+      "club": {
+        "title": "Jiunge au anzisha kikundi",
+        "body": "Kutana mara kwa mara na watu walio karibu nawe."
+      },
+      "event": {
+        "title": "Hudhuria matukio",
+        "body": "Kuwa wa kwanza kusikia kuhusu matukio katika eneo lako."
+      },
+      "creator": {
+        "title": "Kuwa mbunifu",
+        "body": "Shiriki kazi yako na jumuiya."
+      },
+      "volunteer": {
+        "title": "Jitolee",
+        "body": "Toa muda na ujuzi wako."
+      },
+      "partner": {
+        "title": "Shirikiana nasi",
+        "body": "Mashirika, shule na biashara."
+      }
+    },
+    "name": "Jina kamili",
+    "email": "Barua pepe",
+    "location": "Unaishi wapi?",
+    "locationPlaceholder": "Jiji, nchi",
+    "privacy": "Tunatumia taarifa hizi tu kukujibu. Ni wanatimu walioidhinishwa pekee wanaoweza kuziona, na unaweza kutuomba tuzifute wakati wowote.",
+    "submit": "Tuma",
+    "errors": {
+      "name": "Tafadhali tuambie jina lako.",
+      "email": "Tafadhali weka anwani sahihi ya barua pepe.",
+      "location": "Tafadhali tuambie unakoishi.",
+      "categories": "Chagua angalau chaguo moja."
+    },
+    "thanksTitle": "Asante, {{name}}.",
+    "thanksBody": "Tumepokea jibu lako na tumetuma uthibitisho kwa {{email}}. Mtu kutoka timu atawasiliana nawe."
+  },
+  "newsletter": {
+    "emailLabel": "Anwani ya barua pepe",
+    "placeholder": "wewe@barua.com",
+    "submit": "Jiandikishe",
+    "note": "Barua pepe moja kwa mwezi. Kwanza tunatuma kiungo cha uthibitisho, na unaweza kujiondoa kwa kubofya mara moja.",
+    "invalidEmail": "Tafadhali weka anwani sahihi ya barua pepe.",
+    "checkInbox": "Angalia kikasha chako",
+    "sentTo": "Tumetuma kiungo cha uthibitisho kwa {{email}}. Kibofye ili uanze kupokea jarida."
+  },
+  "cta": {
+    "title": "Kaa karibu na hadithi",
+    "body": "Habari na video mpya, mara moja kwa mwezi. Au tuambie jinsi ungependa kushiriki.",
+    "join": "Shiriki"
+  },
+  "footer": {
+    "mission": "Kuunganisha watu wa Afrika na diaspora ya Kiafrika kupitia historia, jiografia, utamaduni na fursa.",
+    "explore": "Gundua",
+    "participate": "Shiriki",
+    "partner": "Shirikiana nasi",
+    "copyright": "© {{year}} Wakanze",
+    "tagline": "Watu wamoja. Mwali mmoja.",
+    "follow": "Tufuate"
+  },
+  "subscription": {
+    "confirmed": {
+      "title": "Umejiandikisha",
+      "body": "Asante kwa kuthibitisha. Jarida lijalo litafika mwanzoni mwa mwezi ujao.",
+      "cta": "Tazama video mpya"
+    },
+    "unsubscribed": {
+      "title": "Umejiondoa",
+      "body": "Hutapokea tena jarida. Unaweza kujiandikisha tena wakati wowote kutoka ukurasa wowote."
+    }
+  },
+  "notFound": {
+    "title": "Ukurasa haukupatikana",
+    "back": "Rudi mwanzo"
+  },
+  "language": {
+    "label": "Lugha",
+    "groups": {
+      "africa": "Afrika",
+      "europe": "Ulaya",
+      "asia": "Asia"
+    }
+  }
+}

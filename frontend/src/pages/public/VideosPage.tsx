@@ -21,7 +21,7 @@ export default function VideosPage() {
           ))}
         </div>
         <a href={channelUrl} target="_blank" rel="noopener noreferrer" className={`${button.primary} mt-10`}>
-          {t('videos.allOnYoutube')} <span aria-hidden="true">↗</span>
+          {t('videos.allOnYoutube')} <span aria-hidden="true" className="inline-block rtl:-scale-x-100">↗</span>
           <span className="sr-only"> {t('common.opensInNewTab')}</span>
         </a>
       </section>

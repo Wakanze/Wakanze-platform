@@ -1,0 +1,282 @@
+{
+  "common": {
+    "loading": "Ana lodawa…",
+    "error": "An sami matsala. Da fatan za a sake gwadawa.",
+    "skipToContent": "Tsallaka zuwa abin ciki",
+    "mockupBanner": "Samfoti: ba a haɗa fom ɗin wasiƙar labarai da na shiga ba tukuna.",
+    "opensInNewTab": "(yana buɗewa a sabon shafi)"
+  },
+  "nav": {
+    "label": "Babba",
+    "home": "Gida",
+    "about": "Game da mu",
+    "articles": "Maƙaloli",
+    "events": "Taruka",
+    "join": "Shiga cikin aiki",
+    "open": "Buɗe menu",
+    "close": "Rufe menu",
+    "supporters": "Masu goyon baya",
+    "donate": "Ba da gudummawa",
+    "store": "Shago",
+    "videos": "Sabbin bidiyoyi",
+    "support": "Tallafa wa Wakanze"
+  },
+  "home": {
+    "metaDescription": "Wakanze na haɗa al'ummomin Afirka da 'yan Afirka mazauna ƙasashen waje ta hanyar tarihi, ƙasa, al'ada da damammaki.",
+    "kicker": "Afirka da 'yan uwanta a ƙasashen waje",
+    "title": "Al'umma ɗaya. Harshen wuta ɗaya.",
+    "subtitle": "Wakanze na haɗa al'ummomin Afirka da 'yan uwansu a ƙasashen waje ta hanyar tarihi, ƙasa, al'ada da damammaki. Kalli sabbin bidiyoyinmu kuma zaɓi yadda kake so ka shiga.",
+    "primaryCta": "Shiga cikin aiki",
+    "secondaryCta": "Kalli bidiyoyin",
+    "pillarsTitle": "Abin da Wakanze ke yi",
+    "pillars": {
+      "memory": {
+        "title": "Tarihi da tunawa",
+        "body": "Labarai, ma'ajiyar tarihi da tunanin iyali da ke ba da labarin tarihin Afirka daga ciki."
+      },
+      "culture": {
+        "title": "Al'ada da masu ƙirƙira",
+        "body": "Marubuta, mawaƙa da masu shirya fina-finai da ke gina al'adun Afirka da na 'yan uwa a ƙasashen waje a yau."
+      },
+      "connection": {
+        "title": "Haɗin kai da damammaki",
+        "body": "Taruka da ƙungiyoyin gida da ke mayar da 'yan uwa da suka warwatsu zuwa hanyar sadarwa ɗaya."
+      }
+    },
+    "waysKicker": "Matakinka na gaba",
+    "waysTitle": "Hanyoyi shida na shiga",
+    "waysCta": "Faɗa mana",
+    "emblemAlt": "Alamar harshen wuta na zinariya ta Wakanze",
+    "supportTitle": "Tallafa wa Wakanze",
+    "storeKicker": "Shagon Wakanze",
+    "storeTitle": "Saka saƙon a jikinka",
+    "storeBody": "Kayayyaki na hukuma: kowace riga da kowane kofi na taimakawa wajen ɗaukar nauyin aikin.",
+    "storeCta": "Ziyarci shagon",
+    "donateKicker": "Ba da gudummawa",
+    "donateTitle": "Ka riƙe harshen wutar da rai",
+    "donateBody": "Wakanze mai zaman kansa ne. Ƙaramar gudummawa na taimaka mana mu wallafa, mu ɗauki bidiyo kuma mu haɗa mutane.",
+    "donateCta": "Tallafa wa Wakanze",
+    "videosKicker": "A YouTube",
+    "videosTitle": "Sabbin bidiyoyi",
+    "allVideos": "Duk bidiyoyi"
+  },
+  "videos": {
+    "kicker": "YouTube",
+    "title": "Sabbin bidiyoyi",
+    "intro": "Sabbin bidiyoyi daga tashar Wakanze. Kalle su a nan ko a YouTube.",
+    "play": "Kunna: {{title}}",
+    "watchOnYoutube": "Kalla a YouTube",
+    "allOnYoutube": "Duba duk bidiyoyi a YouTube"
+  },
+  "about": {
+    "kicker": "Game da Wakanze",
+    "title": "Dandalin bai ɗaya na zamani don duniyar Afirka",
+    "intro": "Wakanze aiki ne na dogon lokaci don haɗa al'ummomin Afirka da 'yan uwansu a ƙasashen waje ta hanyar tarihi, ƙasa, al'ada, ilimi da tsararraki.",
+    "body1": "Tarihin 'yan Afirka a ƙasashen waje ba labarin ƙaura kaɗai ba ne. Labarin ƙirƙira ne kuma: sababbin al'adu, sababbin harsuna, sababbin al'ummomi a kowace nahiya.",
+    "body2": "Wakanze ya fara da abu mai sauƙi: wurin kallon waɗannan labarai, haɗuwa da mutanen da ke ba da su, da samun wasu da suka damu da abubuwa iri ɗaya.",
+    "quote": "Daga 'yan uwa da suka warwatsu ɗaiɗai zuwa hanyar sadarwar al'ummomi.",
+    "body3": "Duk sauran abubuwa, daga ƙungiyoyin gida zuwa ilimi da ayyukan haɗin gwiwa, suna tasowa ne daga mutanen da suka zaɓi su shiga. Shi ya sa abu na farko da muke tambaya shi ne yadda kake so ka shiga.",
+    "journeyTitle": "Yadda yake aiki",
+    "steps": {
+      "discover": {
+        "title": "Gano",
+        "body": "Kalli bidiyoyinmu kuma ka bi Wakanze a kafofin sada zumunta."
+      },
+      "connect": {
+        "title": "Ci gaba da tuntuɓa",
+        "body": "Karɓi wasiƙar labarai mai ɗauke da mafi kyawun kowane wata."
+      },
+      "participate": {
+        "title": "Shiga",
+        "body": "Faɗa mana yadda kake so ka shiga."
+      },
+      "build": {
+        "title": "Gina tare",
+        "body": "Ƙungiyoyin gida da ayyuka suna tasowa daga nan."
+      }
+    }
+  },
+  "articles": {
+    "kicker": "Labarai",
+    "title": "Maƙaloli",
+    "intro": "Tarihi, al'ada, al'umma da damammaki, sababbi a farko.",
+    "back": "Duk maƙaloli",
+    "by": "Daga {{author}}",
+    "readTime_one": "Karatun minti {{count}}",
+    "readTime_other": "Karatun mintuna {{count}}",
+    "more": "Ci gaba da karatu",
+    "newsletterTitle": "Labarin ya burge ka?",
+    "newsletterBody": "Karɓi mafi kyawun labarai da taruka sau ɗaya a wata.",
+    "categories": {
+      "history": "Tarihi",
+      "culture": "Al'ada",
+      "community": "Al'umma",
+      "opportunity": "Damammaki"
+    }
+  },
+  "events": {
+    "kicker": "Taruka",
+    "title": "Taruka masu zuwa",
+    "intro": "Yawo, bita, laccoci da haɗuwa, a birane da kuma ta intanet. Ana yin rajista a shafin kowane mai shiryawa.",
+    "filtersLabel": "Tace taruka",
+    "from": "Daga",
+    "to": "Zuwa",
+    "region": "Yanki",
+    "regions": {
+      "all": "Duk yankuna",
+      "africa": "Afirka",
+      "europe": "Turai",
+      "americas": "Amurka",
+      "online": "Ta intanet"
+    },
+    "clear": "Share matattara",
+    "count_one": "Taro {{count}}",
+    "count_other": "Taruka {{count}}",
+    "empty": "Babu tarukan da suka dace da waɗannan matattara. Gwada faɗaɗa kwanan wata ko wani yanki.",
+    "online": "Ta intanet",
+    "register": "Yi rajista",
+    "noRegistration": "Shiga kyauta, ba a buƙatar rajista"
+  },
+  "supporters": {
+    "kicker": "Masu goyon baya",
+    "title": "Mutanen da ke bayan Wakanze",
+    "intro": "Masu ƙirƙira da muryoyin da ke goyon bayan Wakanze kuma suke raba abun ciki game da tarihi, al'ada da rayuwar Afirka da ta 'yan uwa a ƙasashen waje. Nemo su ta jigo ko ƙasa kuma ka bi su a tasoshinsu.",
+    "filterLabel": "Tace masu goyon baya",
+    "topic": "Jigo",
+    "country": "Ƙasa",
+    "allCountries": "Duk ƙasashe",
+    "count_one": "Mai goyon baya {{count}}",
+    "count_other": "Masu goyon baya {{count}}",
+    "empty": "Babu masu goyon baya da suka dace da waɗannan matattara tukuna.",
+    "topics": {
+      "all": "Duk jigogi",
+      "history": "Tarihi",
+      "culture": "Al'ada",
+      "music": "Waƙa",
+      "business": "Kasuwanci",
+      "language": "Harshe",
+      "film": "Fim"
+    },
+    "joinTitle": "Kana goyon bayan Wakanze?",
+    "joinBody": "Ƙungiyar Wakanze ce ke gayyatar masu goyon baya. Idan kana ƙirƙirar abun ciki mai alaƙa, faɗa mana game da aikinka.",
+    "joinCta": "Faɗa mana game da aikinka"
+  },
+  "donate": {
+    "kicker": "Tallafa wa Wakanze",
+    "title": "Taimaka mana mu riƙe harshen wutar da rai",
+    "intro": "Ana ɗaukar nauyin Wakanze ta gudummawa da kuma Shagon Wakanze. Dukansu suna aiki a kan amintattun dandamali na waje, don haka ba za ka taɓa raba bayanan biyan kuɗi da mu ba.",
+    "giveKicker": "Ba da gudummawa",
+    "giveTitle": "Bayar da gudummawa",
+    "giveBody": "Kowace gudummawa na taimaka mana mu wallafa labarai, mu ɗauki hirarraki a bidiyo kuma mu shirya taruka don al'umma.",
+    "via": "Ba da gudummawa ta {{name}}",
+    "shopKicker": "Shagon Wakanze",
+    "shopTitle": "Sayi kayayyakin",
+    "shopBody": "Saka tambarin Wakanze da alfahari. Wani kaso na kowane oda yana zuwa ga aikin.",
+    "shopCta": "Ziyarci shagon",
+    "otherTitle": "Ba za ka iya bayarwa yanzu ba?",
+    "otherBody": "Aikin sa kai, raba abun cikinmu ko faɗa mana yadda kake so ka shiga yana taimakawa daidai wa daida.",
+    "otherCta": "Wasu hanyoyin shiga"
+  },
+  "join": {
+    "kicker": "Shiga cikin aiki",
+    "title": "Ta yaya kake so ka shiga?",
+    "intro": "Zaɓi zaɓi ɗaya ko fiye. Wani daga ƙungiyar yana karanta kowace amsa kuma zai dawo maka.",
+    "nextTitle": "Abin da zai biyo baya",
+    "next": {
+      "review": "Za ka karɓi imel da ke tabbatar da cewa mun karɓi amsarka.",
+      "contact": "Wani daga ƙungiyar zai duba ta kuma ya tuntuɓe ka da kansa.",
+      "connect": "Za mu haɗa ka da mutanen da suka dace, taro ko ƙungiya kusa da kai."
+    },
+    "notMembership": "Wannan fom yana adana sha'awarka. Ba neman zama memba ba ne kuma ba ya ƙirƙirar asusu."
+  },
+  "interest": {
+    "categoriesLegend": "Ina so in…",
+    "categoriesHint": "Zaɓi duk waɗanda suka dace.",
+    "categories": {
+      "member": {
+        "title": "Zama memba",
+        "body": "Ka kasance cikin Wakanze yayin da yake samun tsari."
+      },
+      "club": {
+        "title": "Shiga ko kafa ƙungiya",
+        "body": "Haɗu da mutane kusa da kai a kai a kai."
+      },
+      "event": {
+        "title": "Halartar taruka",
+        "body": "Ka fara jin labarin taruka a yankinka."
+      },
+      "creator": {
+        "title": "Zama mai ƙirƙira",
+        "body": "Raba aikinka da al'umma."
+      },
+      "volunteer": {
+        "title": "Aikin sa kai",
+        "body": "Ba da ɗan lokaci da ƙwarewa."
+      },
+      "partner": {
+        "title": "Yi haɗin gwiwa da mu",
+        "body": "Ƙungiyoyi, makarantu da kamfanoni."
+      }
+    },
+    "name": "Cikakken suna",
+    "email": "Imel",
+    "location": "A ina kake zaune?",
+    "locationPlaceholder": "Birni, ƙasa",
+    "privacy": "Muna amfani da waɗannan bayanai ne kawai don amsa maka. Membobin ƙungiya masu izini ne kaɗai ke iya ganinsu, kuma za ka iya neman mu goge su a kowane lokaci.",
+    "submit": "Aika",
+    "errors": {
+      "name": "Da fatan ka faɗa mana sunanka.",
+      "email": "Da fatan ka shigar da adireshin imel mai inganci.",
+      "location": "Da fatan ka faɗa mana inda kake zaune.",
+      "categories": "Zaɓi aƙalla zaɓi ɗaya."
+    },
+    "thanksTitle": "Na gode, {{name}}.",
+    "thanksBody": "Mun karɓi amsarka kuma mun aika tabbaci zuwa {{email}}. Wani daga ƙungiyar zai tuntuɓe ka."
+  },
+  "newsletter": {
+    "emailLabel": "Adireshin imel",
+    "placeholder": "your@email.com",
+    "submit": "Yi rajista",
+    "note": "Imel ɗaya a wata. Muna fara aika hanyar tabbatarwa, kuma za ka iya fita da danna ɗaya.",
+    "invalidEmail": "Da fatan ka shigar da adireshin imel mai inganci.",
+    "checkInbox": "Duba akwatin saƙonka",
+    "sentTo": "Mun aika hanyar tabbatarwa zuwa {{email}}. Danna ta don fara karɓar wasiƙar labarai."
+  },
+  "cta": {
+    "title": "Ka kasance kusa da labaran",
+    "body": "Labarai da sabbin bidiyoyi, sau ɗaya a wata. Ko faɗa mana yadda kake so ka shiga.",
+    "join": "Shiga cikin aiki"
+  },
+  "footer": {
+    "mission": "Haɗa al'ummomin Afirka da 'yan Afirka mazauna ƙasashen waje ta hanyar tarihi, ƙasa, al'ada da damammaki.",
+    "explore": "Bincika",
+    "participate": "Shiga",
+    "partner": "Yi haɗin gwiwa da mu",
+    "copyright": "© {{year}} Wakanze",
+    "tagline": "Al'umma ɗaya. Harshen wuta ɗaya.",
+    "follow": "Bi mu"
+  },
+  "subscription": {
+    "confirmed": {
+      "title": "Ka yi rajista",
+      "body": "Na gode da tabbatarwa. Wasiƙar labarai ta gaba za ta iso a farkon wata mai zuwa.",
+      "cta": "Kalli sabbin bidiyoyi"
+    },
+    "unsubscribed": {
+      "title": "An cire ka daga rajista",
+      "body": "Ba za ka sake karɓar wasiƙar labarai ba. Za ka iya sake yin rajista a kowane lokaci daga kowane shafi."
+    }
+  },
+  "notFound": {
+    "title": "Ba a sami shafin ba",
+    "back": "Koma gida"
+  },
+  "language": {
+    "label": "Harshe",
+    "groups": {
+      "africa": "Afrika",
+      "europe": "Turai",
+      "asia": "Asiya"
+    }
+  }
+}

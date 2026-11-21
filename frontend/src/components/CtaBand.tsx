@@ -18,7 +18,7 @@ export default function CtaBand() {
           </h2>
           <p className="mt-4 max-w-xl text-paper-200">{t('cta.body')}</p>
           <Link to="/join" className={`${button.onDark} mt-6`}>
-            {t('cta.join')} <span aria-hidden="true">→</span>
+            {t('cta.join')} <span aria-hidden="true" className="inline-block rtl:-scale-x-100">→</span>
           </Link>
         </div>
         <div>

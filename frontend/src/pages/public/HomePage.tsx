@@ -79,7 +79,7 @@ export default function HomePage() {
             <span className="mt-3 font-display text-2xl font-extrabold uppercase tracking-wide">{t('home.storeTitle')}</span>
             <span className="mt-3 flex-1 text-paper-200">{t('home.storeBody')}</span>
             <span className="mt-6 font-semibold text-gold-300 group-hover:underline">
-              {t('home.storeCta')} <span aria-hidden="true">↗</span>
+              {t('home.storeCta')} <span aria-hidden="true" className="inline-block rtl:-scale-x-100">↗</span>
               <span className="sr-only"> {t('common.opensInNewTab')}</span>
             </span>
           </a>
@@ -91,7 +91,7 @@ export default function HomePage() {
             <span className="mt-3 font-display text-2xl font-extrabold uppercase tracking-wide">{t('home.donateTitle')}</span>
             <span className="mt-3 flex-1 text-ink-800">{t('home.donateBody')}</span>
             <span className="mt-6 font-semibold group-hover:underline">
-              {t('home.donateCta')} <span aria-hidden="true">→</span>
+              {t('home.donateCta')} <span aria-hidden="true" className="inline-block rtl:-scale-x-100">→</span>
             </span>
           </Link>
         </div>
@@ -128,7 +128,7 @@ export default function HomePage() {
                   </span>
                   <span className="mt-2 flex-1 text-sm text-ink-700">{t(`interest.categories.${category}.body`)}</span>
                   <span className="mt-4 text-sm font-semibold text-gold-700 group-hover:underline">
-                    {t('home.waysCta')} <span aria-hidden="true">→</span>
+                    {t('home.waysCta')} <span aria-hidden="true" className="inline-block rtl:-scale-x-100">→</span>
                   </span>
                 </Link>
               </li>

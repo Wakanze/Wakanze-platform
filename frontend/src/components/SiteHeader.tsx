@@ -37,7 +37,7 @@ export default function SiteHeader() {
             {t('nav.support')}
           </NavLink>
         </nav>
-        <div className="ml-auto hidden items-center gap-4 lg:flex">
+        <div className="ms-auto hidden items-center gap-4 lg:flex">
           <LanguageSwitcher />
           <Link to="/join" className={button.primary}>
             {t('nav.join')}
@@ -45,7 +45,7 @@ export default function SiteHeader() {
         </div>
         <button
           type="button"
-          className="ml-auto rounded-lg p-2 text-ink-950 hover:bg-paper-200 lg:hidden"
+          className="ms-auto rounded-lg p-2 text-ink-950 hover:bg-paper-200 lg:hidden"
           aria-expanded={open}
           aria-controls="mobile-nav"
           onClick={() => setOpen((v) => !v)}

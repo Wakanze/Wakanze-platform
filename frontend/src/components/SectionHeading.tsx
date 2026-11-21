@@ -16,7 +16,7 @@ export default function SectionHeading({ kicker, title, link }: Props) {
       </div>
       {link && (
         <Link to={link.to} className="text-sm font-semibold text-ink-800 underline-offset-4 hover:underline">
-          {link.label} <span aria-hidden="true">→</span>
+          {link.label} <span aria-hidden="true" className="inline-block rtl:-scale-x-100">→</span>
         </Link>
       )}
     </div>

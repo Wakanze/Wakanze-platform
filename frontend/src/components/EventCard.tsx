@@ -33,7 +33,7 @@ export default function EventCard({ event }: { event: WakanzeEvent }) {
             rel="noopener noreferrer"
             className="mt-3 inline-block text-sm font-semibold text-ink-800 underline-offset-4 hover:underline"
           >
-            {t('events.register')} <span aria-hidden="true">↗</span>
+            {t('events.register')} <span aria-hidden="true" className="inline-block rtl:-scale-x-100">↗</span>
             <span className="sr-only"> {t('common.opensInNewTab')}</span>
           </a>
         ) : (

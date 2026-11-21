@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="space-y-5 text-lg leading-relaxed text-ink-700">
           <p>{t('about.body1')}</p>
           <p>{t('about.body2')}</p>
-          <blockquote className="border-l-4 border-gold-500 pl-5 font-display text-2xl italic text-ink-800">
+          <blockquote className="border-s-4 border-gold-500 ps-5 font-display text-2xl italic text-ink-800">
             {t('about.quote')}
           </blockquote>
           <p>{t('about.body3')}</p>

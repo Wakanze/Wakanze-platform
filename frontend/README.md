@@ -1,7 +1,7 @@
 # Wakanze — frontend
 
 Public Gateway of the Wakanze platform: React 19, TypeScript, Vite, Tailwind CSS 4,
-react-router 7 and i18next (English, Portuguese, French, Spanish).
+react-router 7 and i18next in ten languages.
 
 Everything visible uses real data: the latest videos come from the Wakanze YouTube channel, and
 the Store and donation links open the real platforms. The newsletter and join forms are not
@@ -75,8 +75,18 @@ The site shows itself in the visitor's browser language when it is available (fo
 `pt-BR` shows Portuguese), and falls back to English. A language picked by hand in the selector
 is remembered for the next visit.
 
-`src/i18n/index.ts` groups languages into Afrika, Europe and Asia. A group appears in the
-selector once it has at least one translated language. To add a language, create its file in
+`src/i18n/index.ts` groups languages into Afrika, Europe and Asia:
+
+| Group | Languages |
+|---|---|
+| Afrika | Kiswahili, Hausa, Yorùbá, Amharic, isiZulu |
+| Europe | English, Português, Français, Español |
+| Asia | Arabic (right to left) |
+
+The African languages and Arabic are first-pass AI translations. They should be reviewed by
+native speakers before launch, especially the slogans and the word "diaspora".
+
+A group appears in the selector once it has at least one translated language. To add a language, create its file in
 `src/i18n/locales/`, register it in `resources`, and add it to `SUPPORTED_LANGUAGES` with its
 group. Right-to-left languages such as Arabic switch the page direction automatically.
 A test checks that every locale file has the same keys.

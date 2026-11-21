@@ -26,7 +26,7 @@ export default function SupportPage() {
             {DONATION_LINKS.map((link) => (
               <li key={link.id}>
                 <a href={link.url} target="_blank" rel="noopener noreferrer" className={button.accent}>
-                  {t('donate.via', { name: link.name })} <span aria-hidden="true">↗</span>
+                  {t('donate.via', { name: link.name })} <span aria-hidden="true" className="inline-block rtl:-scale-x-100">↗</span>
                   <span className="sr-only"> {t('common.opensInNewTab')}</span>
                 </a>
               </li>
@@ -38,7 +38,7 @@ export default function SupportPage() {
           <h2 className="mt-3 font-display text-2xl font-bold text-ink-950">{t('donate.shopTitle')}</h2>
           <p className="mt-3 flex-1 text-ink-700">{t('donate.shopBody')}</p>
           <a href={STORE_URL} target="_blank" rel="noopener noreferrer" className={`${button.primary} mt-6 self-start`}>
-            {t('donate.shopCta')} <span aria-hidden="true">↗</span>
+            {t('donate.shopCta')} <span aria-hidden="true" className="inline-block rtl:-scale-x-100">↗</span>
             <span className="sr-only"> {t('common.opensInNewTab')}</span>
           </a>
         </div>

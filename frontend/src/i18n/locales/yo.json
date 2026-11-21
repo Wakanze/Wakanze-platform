@@ -1,0 +1,282 @@
+{
+  "common": {
+    "loading": "Ó ń ṣe ìkójọpọ̀…",
+    "error": "Nǹkan kan ò lọ dáadáa. Ẹ jọ̀wọ́, ẹ tún gbìyànjú.",
+    "skipToContent": "Lọ tààrà sí àkóónú",
+    "mockupBanner": "Àwòtẹ́lẹ̀: fọ́ọ̀mù ìwé ìròyìn àti fọ́ọ̀mù ìdarapọ̀ kò tíì ṣiṣẹ́.",
+    "opensInNewTab": "(yóò ṣí ní táàbù tuntun)"
+  },
+  "nav": {
+    "label": "Àkọ́kọ́",
+    "home": "Ilé",
+    "about": "Nípa wa",
+    "articles": "Àwọn àpilẹ̀kọ",
+    "events": "Àwọn ìṣẹ̀lẹ̀",
+    "join": "Kópa",
+    "open": "Ṣí àkójọ àṣàyàn",
+    "close": "Pa àkójọ àṣàyàn dé",
+    "supporters": "Àwọn alátìlẹ́yìn",
+    "donate": "Ṣètọrẹ",
+    "store": "Ṣọ́ọ̀bù",
+    "videos": "Àwọn fídíò tuntun",
+    "support": "Ṣe àtìlẹ́yìn fún Wakanze"
+  },
+  "home": {
+    "metaDescription": "Wakanze ń so àwọn ènìyàn Áfíríkà àti àwọn ọmọ Áfíríkà lókè òkun pọ̀ nípasẹ̀ ìtàn, ilẹ̀, àṣà àti àǹfààní.",
+    "kicker": "Áfíríkà àti àwọn ọmọ rẹ̀ lókè òkun",
+    "title": "Ènìyàn kan. Ọwọ́ iná kan.",
+    "subtitle": "Wakanze ń so àwọn ènìyàn Áfíríkà àti àwọn ọmọ Áfíríkà lókè òkun pọ̀ nípasẹ̀ ìtàn, ilẹ̀, àṣà àti àǹfààní. Ẹ wo àwọn fídíò wa tuntun, kí ẹ sì yan bí ẹ ṣe fẹ́ kópa.",
+    "primaryCta": "Kópa",
+    "secondaryCta": "Wo àwọn fídíò",
+    "pillarsTitle": "Ohun tí Wakanze ń ṣe",
+    "pillars": {
+      "memory": {
+        "title": "Ìtàn àti ìrántí",
+        "body": "Àwọn ìtàn, àkọsílẹ̀ àtijọ́ àti ìrántí ìdílé tó ń sọ ìtàn Áfíríkà láti inú."
+      },
+      "culture": {
+        "title": "Àṣà àti àwọn olùṣẹ̀dá",
+        "body": "Àwọn òǹkọ̀wé, olórin àti olùṣe fíìmù tó ń ṣe àgbékalẹ̀ àṣà Áfíríkà àti ti òkè òkun lónìí."
+      },
+      "connection": {
+        "title": "Ìbáṣepọ̀ àti àǹfààní",
+        "body": "Àwọn ìṣẹ̀lẹ̀ àti ẹgbẹ́ àdúgbò tó ń sọ àwọn ọmọ Áfíríkà tó fọ́nká kárí ayé di ìsopọ̀ kan ṣoṣo."
+      }
+    },
+    "waysKicker": "Ìgbésẹ̀ yín tó kàn",
+    "waysTitle": "Ọ̀nà mẹ́fà láti kópa",
+    "waysCta": "Ẹ sọ fún wa",
+    "emblemAlt": "Àmì ọwọ́ iná wúrà ti Wakanze",
+    "supportTitle": "Ṣe àtìlẹ́yìn fún Wakanze",
+    "storeKicker": "Ṣọ́ọ̀bù Wakanze",
+    "storeTitle": "Ẹ wọ ìhìn wa",
+    "storeBody": "Ọjà tòótọ́ ti Wakanze: gbogbo ẹ̀wù T-shirt àti ife ló ń ṣèrànwọ́ láti ṣe ìnáwó iṣẹ́ àkànṣe náà.",
+    "storeCta": "Lọ sí ṣọ́ọ̀bù",
+    "donateKicker": "Ṣètọrẹ",
+    "donateTitle": "Ẹ jẹ́ kí ọwọ́ iná náà máa jó",
+    "donateBody": "Wakanze dá dúró fúnra rẹ̀. Ẹ̀bùn kékeré kan ń ràn wá lọ́wọ́ láti tẹ̀wé jáde, ya fídíò àti kó àwọn ènìyàn jọ.",
+    "donateCta": "Ṣe àtìlẹ́yìn fún Wakanze",
+    "videosKicker": "Lórí YouTube",
+    "videosTitle": "Àwọn fídíò tuntun",
+    "allVideos": "Gbogbo fídíò"
+  },
+  "videos": {
+    "kicker": "YouTube",
+    "title": "Àwọn fídíò tuntun",
+    "intro": "Àwọn fídíò tuntun jùlọ láti ikanni Wakanze. Ẹ wò wọ́n níbí tàbí lórí YouTube.",
+    "play": "Wò ó: {{title}}",
+    "watchOnYoutube": "Wò ó lórí YouTube",
+    "allOnYoutube": "Wo gbogbo fídíò lórí YouTube"
+  },
+  "about": {
+    "kicker": "Nípa Wakanze",
+    "title": "Ilé àjùmọ̀ní orí ayélujára fún ayé Áfíríkà",
+    "intro": "Wakanze jẹ́ iṣẹ́ àkànṣe ìgbà pípẹ́ láti so àwọn ènìyàn Áfíríkà àti àwọn ọmọ Áfíríkà lókè òkun pọ̀ nípasẹ̀ ìtàn, ilẹ̀, àṣà, ìmọ̀ àti ìran dé ìran.",
+    "body1": "Ìtàn àwọn ọmọ Áfíríkà lókè òkun kì í ṣe ìtàn ìlékúrò nílé nìkan. Ìtàn ìṣẹ̀dá ni pẹ̀lú: àṣà tuntun, èdè tuntun, àwùjọ tuntun ní gbogbo ilẹ̀ ńlá.",
+    "body2": "Wakanze bẹ̀rẹ̀ pẹ̀lú ohun tó rọrùn: ibi tí ẹ ti lè wo àwọn ìtàn wọ̀nyẹn, pàdé àwọn tó ń sọ wọ́n, kí ẹ sì rí àwọn mìíràn tí ohun kan náà jẹ lógún.",
+    "quote": "Láti ìpínká ẹnìkọ̀ọ̀kan sí ìsopọ̀ àwọn àwùjọ.",
+    "body3": "Gbogbo nǹkan yòókù, láti àwọn ẹgbẹ́ àdúgbò dé ẹ̀kọ́ àti iṣẹ́ àjùmọ̀ṣe, ń dàgbà láti ọ̀dọ̀ àwọn tó yàn láti kópa. Ìdí nìyẹn tí ohun àkọ́kọ́ tí a ń béèrè fi jẹ́ bí ẹ ṣe fẹ́ kópa.",
+    "journeyTitle": "Bí ó ṣe ń ṣiṣẹ́",
+    "steps": {
+      "discover": {
+        "title": "Ṣàwárí",
+        "body": "Ẹ wo àwọn fídíò wa kí ẹ sì tẹ̀lé Wakanze lórí ìkànnì àjọlò."
+      },
+      "connect": {
+        "title": "Máa bá wa lọ",
+        "body": "Ẹ gba ìwé ìròyìn pẹ̀lú èyí tó dára jùlọ nínú oṣù kọ̀ọ̀kan."
+      },
+      "participate": {
+        "title": "Kópa",
+        "body": "Ẹ sọ fún wa bí ẹ ṣe fẹ́ kópa."
+      },
+      "build": {
+        "title": "Kíkọ́ papọ̀",
+        "body": "Àwọn ẹgbẹ́ àdúgbò àti iṣẹ́ àkànṣe ń dàgbà láti ibẹ̀."
+      }
+    }
+  },
+  "articles": {
+    "kicker": "Àwọn ìtàn",
+    "title": "Àwọn àpilẹ̀kọ",
+    "intro": "Ìtàn, àṣà, àwùjọ àti àǹfààní, èyí tó tuntun jùlọ ló kọ́kọ́ wà.",
+    "back": "Gbogbo àpilẹ̀kọ",
+    "by": "Láti ọwọ́ {{author}}",
+    "readTime_one": "Ìṣẹ́jú {{count}} láti kà",
+    "readTime_other": "Ìṣẹ́jú {{count}} láti kà",
+    "more": "Ẹ máa kà á lọ",
+    "newsletterTitle": "Ṣé ìtàn yìí wù yín?",
+    "newsletterBody": "Ẹ máa gba àwọn ìtàn àti ìṣẹ̀lẹ̀ tó dára jùlọ lẹ́ẹ̀kan lóṣù.",
+    "categories": {
+      "history": "Ìtàn",
+      "culture": "Àṣà",
+      "community": "Àwùjọ",
+      "opportunity": "Àǹfààní"
+    }
+  },
+  "events": {
+    "kicker": "Àwọn ìṣẹ̀lẹ̀",
+    "title": "Àwọn ìṣẹ̀lẹ̀ tó ń bọ̀",
+    "intro": "Ìrìn àjò ẹsẹ̀, ìdánilẹ́kọ̀ọ́, ọ̀rọ̀ àsọyé àti ìpàdé, ní àwọn ìlú àti lórí ayélujára. Ìforúkọsílẹ̀ ń wáyé lórí ojú-ìwé olùṣètò kọ̀ọ̀kan.",
+    "filtersLabel": "Ṣẹ́ àwọn ìṣẹ̀lẹ̀",
+    "from": "Láti",
+    "to": "Dé",
+    "region": "Agbègbè",
+    "regions": {
+      "all": "Gbogbo agbègbè",
+      "africa": "Áfíríkà",
+      "europe": "Yúróòpù",
+      "americas": "Amẹ́ríkà",
+      "online": "Lórí ayélujára"
+    },
+    "clear": "Pa àṣàyàn rẹ́",
+    "count_one": "Ìṣẹ̀lẹ̀ {{count}}",
+    "count_other": "Ìṣẹ̀lẹ̀ {{count}}",
+    "empty": "Kò sí ìṣẹ̀lẹ̀ tó bá àwọn àṣàyàn wọ̀nyí mu. Ẹ gbìyànjú àkókò tó gùn jù tàbí agbègbè mìíràn.",
+    "online": "Lórí ayélujára",
+    "register": "Forúkọsílẹ̀",
+    "noRegistration": "Ìwọlé ọ̀fẹ́, kò sí ìforúkọsílẹ̀"
+  },
+  "supporters": {
+    "kicker": "Àwọn alátìlẹ́yìn",
+    "title": "Àwọn ènìyàn tó wà lẹ́yìn Wakanze",
+    "intro": "Àwọn olùṣẹ̀dá àti ohùn tó ń ṣe àtìlẹ́yìn fún Wakanze, tí wọ́n sì ń pín àkóónú nípa ìtàn, àṣà àti ìgbésí ayé Áfíríkà àti ti àwọn ọmọ Áfíríkà lókè òkun. Ẹ wá wọn rí nípasẹ̀ kókó ọ̀rọ̀ tàbí orílẹ̀-èdè, kí ẹ sì tẹ̀lé wọn lórí ìkànnì wọn.",
+    "filterLabel": "Ṣẹ́ àwọn alátìlẹ́yìn",
+    "topic": "Kókó ọ̀rọ̀",
+    "country": "Orílẹ̀-èdè",
+    "allCountries": "Gbogbo orílẹ̀-èdè",
+    "count_one": "Alátìlẹ́yìn {{count}}",
+    "count_other": "Alátìlẹ́yìn {{count}}",
+    "empty": "Kò tíì sí alátìlẹ́yìn tó bá àwọn àṣàyàn wọ̀nyí mu.",
+    "topics": {
+      "all": "Gbogbo kókó ọ̀rọ̀",
+      "history": "Ìtàn",
+      "culture": "Àṣà",
+      "music": "Orin",
+      "business": "Ìṣòwò",
+      "language": "Èdè",
+      "film": "Fíìmù"
+    },
+    "joinTitle": "Ṣé ẹ ń ṣe àtìlẹ́yìn fún Wakanze?",
+    "joinBody": "Ikọ̀ Wakanze ló ń pe àwọn alátìlẹ́yìn. Bí ẹ bá ń ṣẹ̀dá àkóónú tó jọ èyí, ẹ sọ fún wa nípa iṣẹ́ yín.",
+    "joinCta": "Ẹ sọ fún wa nípa iṣẹ́ yín"
+  },
+  "donate": {
+    "kicker": "Ṣe àtìlẹ́yìn fún Wakanze",
+    "title": "Ẹ ràn wá lọ́wọ́ láti jẹ́ kí ọwọ́ iná náà máa jó",
+    "intro": "Ẹ̀bùn àti Ṣọ́ọ̀bù Wakanze ló ń pèsè owó fún Wakanze. Àwọn méjèèjì ń ṣiṣẹ́ lórí àwọn pèpéle òde tó ṣeé gbẹ́kẹ̀lé, nítorí náà ẹ kò ní pín àlàyé ìsanwó yín pẹ̀lú wa láé.",
+    "giveKicker": "Ṣètọrẹ",
+    "giveTitle": "Ṣe ìtọrẹ",
+    "giveBody": "Gbogbo ìtọrẹ ló ń ràn wá lọ́wọ́ láti tẹ àwọn ìtàn jáde, ya fídíò ìfọ̀rọ̀wánilẹ́nuwò àti ṣètò àwọn ìṣẹ̀lẹ̀ fún àwùjọ.",
+    "via": "Ṣètọrẹ pẹ̀lú {{name}}",
+    "shopKicker": "Ṣọ́ọ̀bù Wakanze",
+    "shopTitle": "Ẹ ra àwọn ọjà wa",
+    "shopBody": "Ẹ fi ìgbéraga wọ àmì Wakanze. Ìpín kan nínú gbogbo ọjà tí ẹ bá rà ló ń lọ sí iṣẹ́ àkànṣe náà.",
+    "shopCta": "Lọ sí ṣọ́ọ̀bù",
+    "otherTitle": "Ṣé ẹ kò lè fúnni ní báyìí?",
+    "otherBody": "Ṣíṣe iṣẹ́ àṣeyọ̀ǹda, pínpín àkóónú wa tàbí sísọ fún wa bí ẹ ṣe fẹ́ kópa ń ṣèrànwọ́ bákan náà.",
+    "otherCta": "Àwọn ọ̀nà mìíràn láti kópa"
+  },
+  "join": {
+    "kicker": "Kópa",
+    "title": "Báwo ni ẹ ṣe fẹ́ kópa?",
+    "intro": "Ẹ yan ọ̀kan tàbí jù bẹ́ẹ̀ lọ. Ọmọ ikọ̀ wa kan ń ka gbogbo ìdáhùn, yóò sì kàn sí yín.",
+    "nextTitle": "Ohun tó máa ṣẹlẹ̀ tẹ̀lé e",
+    "next": {
+      "review": "Ẹ ó gba ímeèlì tó fìdí rẹ̀ múlẹ̀ pé a ti gba ìdáhùn yín.",
+      "contact": "Ẹnì kan láti inú ikọ̀ wa yóò yẹ̀ ẹ́ wò, yóò sì kàn sí yín fúnra rẹ̀.",
+      "connect": "A ó so yín pọ̀ mọ́ àwọn ènìyàn, ìṣẹ̀lẹ̀ tàbí ẹgbẹ́ tó yẹ nítòsí yín."
+    },
+    "notMembership": "Fọ́ọ̀mù yìí ń ṣàkọsílẹ̀ ìfẹ́ yín. Kì í ṣe ìbéèrè fún jíjẹ́ ọmọ ẹgbẹ́, kò sì ṣẹ̀dá àkáǹtì."
+  },
+  "interest": {
+    "categoriesLegend": "Mo fẹ́…",
+    "categoriesHint": "Ẹ yan gbogbo èyí tó bá yẹ.",
+    "categories": {
+      "member": {
+        "title": "Di ọmọ ẹgbẹ́",
+        "body": "Ẹ jẹ́ ara Wakanze bí ó ṣe ń dàgbà."
+      },
+      "club": {
+        "title": "Darapọ̀ mọ́ ẹgbẹ́ tàbí dá ọ̀kan sílẹ̀",
+        "body": "Máa pàdé àwọn ènìyàn nítòsí yín déédéé."
+      },
+      "event": {
+        "title": "Lọ sí àwọn ìṣẹ̀lẹ̀",
+        "body": "Ẹ kọ́kọ́ gbọ́ nípa àwọn ìṣẹ̀lẹ̀ ní agbègbè yín."
+      },
+      "creator": {
+        "title": "Di olùṣẹ̀dá",
+        "body": "Ẹ pín iṣẹ́ yín pẹ̀lú àwùjọ."
+      },
+      "volunteer": {
+        "title": "Ṣe iṣẹ́ àṣeyọ̀ǹda",
+        "body": "Ẹ fi àkókò àti ọgbọ́n díẹ̀ ṣèrànwọ́."
+      },
+      "partner": {
+        "title": "Bá wa ṣe àjọṣepọ̀",
+        "body": "Àwọn àjọ, ilé ẹ̀kọ́ àti ilé iṣẹ́."
+      }
+    },
+    "name": "Orúkọ kíkún",
+    "email": "Ímeèlì",
+    "location": "Ibo lẹ ń gbé?",
+    "locationPlaceholder": "Ìlú, orílẹ̀-èdè",
+    "privacy": "A ń lo àwọn àlàyé wọ̀nyí láti fèsì sí yín nìkan. Àwọn ọmọ ikọ̀ tí a fún láṣẹ nìkan ló lè rí wọn, ẹ sì lè ní kí a pa wọ́n rẹ́ nígbàkigbà.",
+    "submit": "Fi ránṣẹ́",
+    "errors": {
+      "name": "Ẹ jọ̀wọ́, ẹ sọ orúkọ yín fún wa.",
+      "email": "Ẹ jọ̀wọ́, ẹ tẹ àdírẹ́sì ímeèlì tó tọ́.",
+      "location": "Ẹ jọ̀wọ́, ẹ sọ ibi tí ẹ ń gbé fún wa.",
+      "categories": "Ẹ yan ó kéré tán àṣàyàn kan."
+    },
+    "thanksTitle": "Ẹ ṣé, {{name}}.",
+    "thanksBody": "A ti gba ìdáhùn yín, a sì ti fi ìfìdímúlẹ̀ ránṣẹ́ sí {{email}}. Ẹnì kan láti inú ikọ̀ wa yóò kàn sí yín."
+  },
+  "newsletter": {
+    "emailLabel": "Àdírẹ́sì ímeèlì",
+    "placeholder": "your@email.com",
+    "submit": "Forúkọ sílẹ̀",
+    "note": "Ímeèlì kan lóṣù. A ó kọ́kọ́ fi ìjápọ̀ ìfìdímúlẹ̀ ránṣẹ́, ẹ sì lè yọ orúkọ yín kúrò pẹ̀lú títẹ̀ ẹ̀ẹ̀kan.",
+    "invalidEmail": "Ẹ jọ̀wọ́, ẹ tẹ àdírẹ́sì ímeèlì tó tọ́.",
+    "checkInbox": "Ẹ wo àpótí ímeèlì yín",
+    "sentTo": "A ti fi ìjápọ̀ ìfìdímúlẹ̀ ránṣẹ́ sí {{email}}. Ẹ tẹ̀ ẹ́ láti bẹ̀rẹ̀ sí í gba ìwé ìròyìn náà."
+  },
+  "cta": {
+    "title": "Ẹ máa sún mọ́ àwọn ìtàn náà",
+    "body": "Ìròyìn àti àwọn fídíò tuntun, lẹ́ẹ̀kan lóṣù. Tàbí ẹ sọ fún wa bí ẹ ṣe fẹ́ kópa.",
+    "join": "Kópa"
+  },
+  "footer": {
+    "mission": "Ń so àwọn ènìyàn Áfíríkà àti àwọn ọmọ Áfíríkà lókè òkun pọ̀ nípasẹ̀ ìtàn, ilẹ̀, àṣà àti àǹfààní.",
+    "explore": "Ṣàwárí",
+    "participate": "Kópa",
+    "partner": "Bá wa ṣe àjọṣepọ̀",
+    "copyright": "© {{year}} Wakanze",
+    "tagline": "Ènìyàn kan. Ọwọ́ iná kan.",
+    "follow": "Ẹ tẹ̀lé wa"
+  },
+  "subscription": {
+    "confirmed": {
+      "title": "Ẹ ti forúkọ sílẹ̀",
+      "body": "Ẹ ṣé fún ìfìdímúlẹ̀ yín. Ìwé ìròyìn tó kàn yóò dé ní ìbẹ̀rẹ̀ oṣù tó ń bọ̀.",
+      "cta": "Wo àwọn fídíò tuntun"
+    },
+    "unsubscribed": {
+      "title": "A ti yọ orúkọ yín kúrò",
+      "body": "Ẹ kò ní gba ìwé ìròyìn náà mọ́. Ẹ lè tún forúkọ sílẹ̀ nígbàkigbà láti ojú-ìwé èyíkéyìí."
+    }
+  },
+  "notFound": {
+    "title": "A kò rí ojú-ìwé náà",
+    "back": "Padà sí ilé"
+  },
+  "language": {
+    "label": "Èdè",
+    "groups": {
+      "africa": "Afrika",
+      "europe": "Yúróòpù",
+      "asia": "Éṣíà"
+    }
+  }
+}

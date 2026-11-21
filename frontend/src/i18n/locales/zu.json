@@ -1,0 +1,282 @@
+{
+  "common": {
+    "loading": "Iyalayisha…",
+    "error": "Kukhona okungahambanga kahle. Sicela uzame futhi.",
+    "skipToContent": "Yeqela kokuqukethwe",
+    "mockupBanner": "Ukubuka kuqala: amafomu encwadi yezindaba nawokuzibandakanya awakaxhunywa.",
+    "opensInNewTab": "(ivuleka kuthebhu entsha)"
+  },
+  "nav": {
+    "label": "Okuyinhloko",
+    "home": "Ikhaya",
+    "about": "Mayelana",
+    "articles": "Izindatshana",
+    "events": "Imicimbi",
+    "join": "Zibandakanye",
+    "open": "Vula imenyu",
+    "close": "Vala imenyu",
+    "supporters": "Abasekeli",
+    "donate": "Nikela",
+    "store": "Isitolo",
+    "videos": "Amavidiyo amasha",
+    "support": "Sekela i-Wakanze"
+  },
+  "home": {
+    "metaDescription": "I-Wakanze ixhumanisa abantu base-Afrika ne-diaspora yase-Afrika ngomlando, ijografi, isiko namathuba.",
+    "kicker": "I-Afrika ne-diaspora yayo",
+    "title": "Isizwe esisodwa. Ilangabi elilodwa.",
+    "subtitle": "I-Wakanze ixhumanisa abantu base-Afrika ne-diaspora ngomlando, ijografi, isiko namathuba. Buka amavidiyo ethu amasha bese ukhetha ukuthi ufuna ukubamba iqhaza kanjani.",
+    "primaryCta": "Zibandakanye",
+    "secondaryCta": "Buka amavidiyo",
+    "pillarsTitle": "Okwenziwa yi-Wakanze",
+    "pillars": {
+      "memory": {
+        "title": "Umlando nenkumbulo",
+        "body": "Izindaba, imibhalo yomlando nenkumbulo yemindeni exoxa umlando wase-Afrika sisuka ngaphakathi."
+      },
+      "culture": {
+        "title": "Isiko nabadali",
+        "body": "Ababhali, abaculi nabenzi bamafilimu ababumba isiko lase-Afrika nele-diaspora namuhla."
+      },
+      "connection": {
+        "title": "Ukuxhumana namathuba",
+        "body": "Imicimbi nemibuthano yasendaweni eguqula i-diaspora ehlakazekile ibe yinethiwekhi."
+      }
+    },
+    "waysKicker": "Isinyathelo sakho esilandelayo",
+    "waysTitle": "Izindlela eziyisithupha zokubamba iqhaza",
+    "waysCta": "Sitshele",
+    "emblemAlt": "Uphawu lwelangabi legolide lwe-Wakanze",
+    "supportTitle": "Sekela i-Wakanze",
+    "storeKicker": "Isitolo se-Wakanze",
+    "storeTitle": "Gqoka umlayezo",
+    "storeBody": "Izimpahla ezisemthethweni: isikibha nenkomishi ngayinye kusiza ukuxhasa iphrojekthi.",
+    "storeCta": "Vakashela isitolo",
+    "donateKicker": "Nikela",
+    "donateTitle": "Gcina ilangabi livutha",
+    "donateBody": "I-Wakanze izimele. Umnikelo omncane usisiza ukuthi sishicilele, siqophe futhi sihlanganise abantu.",
+    "donateCta": "Sekela i-Wakanze",
+    "videosKicker": "Ku-YouTube",
+    "videosTitle": "Amavidiyo amasha",
+    "allVideos": "Wonke amavidiyo"
+  },
+  "videos": {
+    "kicker": "YouTube",
+    "title": "Amavidiyo amasha",
+    "intro": "Amavidiyo amasha esiteshini se-Wakanze. Wabuke lapha noma ku-YouTube.",
+    "play": "Dlala: {{title}}",
+    "watchOnYoutube": "Buka ku-YouTube",
+    "allOnYoutube": "Bona wonke amavidiyo ku-YouTube"
+  },
+  "about": {
+    "kicker": "Mayelana ne-Wakanze",
+    "title": "Indawo yedijithali yomphakathi womhlaba wase-Afrika",
+    "intro": "I-Wakanze iphrojekthi yesikhathi eside yokuxhumanisa abantu base-Afrika ne-diaspora ngomlando, ijografi, isiko, ulwazi nezizukulwane.",
+    "body1": "Umlando we-diaspora yase-Afrika akuyona nje indaba yokufuduswa. Futhi uyindaba yokudala: amasiko amasha, izilimi ezintsha, imiphakathi emisha kuwo wonke amazwekazi.",
+    "body2": "I-Wakanze iqala ngento elula: indawo yokubuka lezo zindaba, yokuhlangana nabantu abazixoxayo nokuthola abanye abakhathalela izinto ezifanayo.",
+    "quote": "Kusukela ku-diaspora yabantu ngabanye kuya kunethiwekhi yemiphakathi.",
+    "body3": "Konke okunye, kusukela emibuthanweni yasendaweni kuya emfundweni nasemaphrojekthini ahlanganyelwe, kukhula kubantu abakhetha ukubamba iqhaza. Yingakho into yokuqala esikubuza yona ukuthi ungathanda ukuzibandakanya kanjani.",
+    "journeyTitle": "Kusebenza kanjani",
+    "steps": {
+      "discover": {
+        "title": "Thola",
+        "body": "Buka amavidiyo ethu futhi ulandele i-Wakanze ezinkundleni zokuxhumana."
+      },
+      "connect": {
+        "title": "Hlala uxhumene",
+        "body": "Thola incwadi yezindaba enokuhle kakhulu kwenyanga ngayinye."
+      },
+      "participate": {
+        "title": "Bamba iqhaza",
+        "body": "Sitshele ukuthi ufuna ukuzibandakanya kanjani."
+      },
+      "build": {
+        "title": "Yakhani ndawonye",
+        "body": "Imibuthano yasendaweni namaphrojekthi kukhula kusukela lapho."
+      }
+    }
+  },
+  "articles": {
+    "kicker": "Izindaba",
+    "title": "Izindatshana",
+    "intro": "Umlando, isiko, umphakathi namathuba, ezakamuva kuqala.",
+    "back": "Zonke izindatshana",
+    "by": "Ibhalwe ngu-{{author}}",
+    "readTime_one": "{{count}} umzuzu wokufunda",
+    "readTime_other": "{{count}} imizuzu yokufunda",
+    "more": "Qhubeka ufunde",
+    "newsletterTitle": "Uyithokozele le ndaba?",
+    "newsletterBody": "Thola izindaba nemicimbi engcono kakhulu kanye ngenyanga.",
+    "categories": {
+      "history": "Umlando",
+      "culture": "Isiko",
+      "community": "Umphakathi",
+      "opportunity": "Amathuba"
+    }
+  },
+  "events": {
+    "kicker": "Imicimbi",
+    "title": "Imicimbi ezayo",
+    "intro": "Uhambo ngezinyawo, ama-workshop, izinkulumo nemihlangano, emadolobheni naku-inthanethi. Ukubhalisa kwenziwa ekhasini lomhleli ngamunye.",
+    "filtersLabel": "Hlunga imicimbi",
+    "from": "Kusukela",
+    "to": "Kuze kube",
+    "region": "Isifunda",
+    "regions": {
+      "all": "Zonke izifunda",
+      "africa": "I-Afrika",
+      "europe": "IYurophu",
+      "americas": "AmaMelika",
+      "online": "Ku-inthanethi"
+    },
+    "clear": "Sula izihlungi",
+    "count_one": "{{count}} umcimbi",
+    "count_other": "{{count}} imicimbi",
+    "empty": "Ayikho imicimbi ehambisana nalezi zihlungi. Zama izinsuku ezibanzi noma esinye isifunda.",
+    "online": "Ku-inthanethi",
+    "register": "Bhalisa",
+    "noRegistration": "Ukungena kumahhala, akudingeki ukubhalisa"
+  },
+  "supporters": {
+    "kicker": "Abasekeli",
+    "title": "Abantu abangemuva kwe-Wakanze",
+    "intro": "Abadali namazwi asekela i-Wakanze futhi abelana ngokuqukethwe mayelana nomlando, isiko nempilo yase-Afrika neye-diaspora. Bathole ngesihloko noma ngezwe futhi ubalandele eziteshini zabo.",
+    "filterLabel": "Hlunga abasekeli",
+    "topic": "Isihloko",
+    "country": "Izwe",
+    "allCountries": "Wonke amazwe",
+    "count_one": "{{count}} umsekeli",
+    "count_other": "{{count}} abasekeli",
+    "empty": "Akukabikho basekeli abahambisana nalezi zihlungi.",
+    "topics": {
+      "all": "Zonke izihloko",
+      "history": "Umlando",
+      "culture": "Isiko",
+      "music": "Umculo",
+      "business": "Ibhizinisi",
+      "language": "Ulimi",
+      "film": "Ifilimu"
+    },
+    "joinTitle": "Uyayisekela i-Wakanze?",
+    "joinBody": "Abasekeli bamenywa yithimba le-Wakanze. Uma udala okuqukethwe okuhlobene, sitshele ngomsebenzi wakho.",
+    "joinCta": "Sitshele ngomsebenzi wakho"
+  },
+  "donate": {
+    "kicker": "Sekela i-Wakanze",
+    "title": "Sisize sigcine ilangabi livutha",
+    "intro": "I-Wakanze ixhaswa yiminikelo kanye neSitolo se-Wakanze. Kokubili kusebenza ezinkundleni zangaphandle ezithembekile, ngakho awulokothi wabelane nathi ngemininingwane yokukhokha.",
+    "giveKicker": "Nikela",
+    "giveTitle": "Yenza umnikelo",
+    "giveBody": "Wonke umnikelo usisiza ukuthi sishicilele izindaba, siqophe izingxoxo futhi sihlelele umphakathi imicimbi.",
+    "via": "Nikela nge-{{name}}",
+    "shopKicker": "Isitolo se-Wakanze",
+    "shopTitle": "Thenga izimpahla",
+    "shopBody": "Gqoka ilogo ye-Wakanze ngokuziqhenya. Ingxenye ye-oda ngalinye iya kuphrojekthi.",
+    "shopCta": "Vakashela isitolo",
+    "otherTitle": "Awukwazi ukunikela okwamanje?",
+    "otherBody": "Ukuvolontiya, ukwabelana ngokuqukethwe kwethu noma ukusitshela ukuthi ufuna ukubamba iqhaza kanjani kusiza ngokufanayo.",
+    "otherCta": "Ezinye izindlela zokubamba iqhaza"
+  },
+  "join": {
+    "kicker": "Zibandakanye",
+    "title": "Ungathanda ukubamba iqhaza kanjani?",
+    "intro": "Khetha okukodwa noma ngaphezulu. Ilungu lethimba lifunda yonke impendulo futhi likubuyele.",
+    "nextTitle": "Kwenzekani ngokulandelayo",
+    "next": {
+      "review": "Uthola i-imeyili eqinisekisa ukuthi sitholile impendulo yakho.",
+      "contact": "Othile ethimbeni uyayibuyekeza futhi axhumane nawe mathupha.",
+      "connect": "Sikuxhumanisa nabantu abafanele, umcimbi noma umbuthano oseduze kwakho."
+    },
+    "notMembership": "Leli fomu lirekhoda intshisekelo yakho. Akusona isicelo sobulungu futhi alidali i-akhawunti."
+  },
+  "interest": {
+    "categoriesLegend": "Ngingathanda…",
+    "categoriesHint": "Khetha konke okufanelekile.",
+    "categories": {
+      "member": {
+        "title": "Yiba yilungu",
+        "body": "Yiba yingxenye ye-Wakanze njengoba ithatha isimo."
+      },
+      "club": {
+        "title": "Joyina noma uqale umbuthano",
+        "body": "Hlangana njalo nabantu abaseduze kwakho."
+      },
+      "event": {
+        "title": "Ya emicimbini",
+        "body": "Yiba ngowokuqala ukuzwa ngemicimbi esifundeni sakho."
+      },
+      "creator": {
+        "title": "Yiba ngumdali",
+        "body": "Yabelana ngomsebenzi wakho nomphakathi."
+      },
+      "volunteer": {
+        "title": "Volontiya",
+        "body": "Nikela ngesikhathi namakhono."
+      },
+      "partner": {
+        "title": "Sebenzisana nathi",
+        "body": "Izinhlangano, izikole namabhizinisi."
+      }
+    },
+    "name": "Igama eligcwele",
+    "email": "I-imeyili",
+    "location": "Uhlalaphi?",
+    "locationPlaceholder": "Idolobha, izwe",
+    "privacy": "Le mininingwane siyisebenzisela kuphela ukukuphendula. Angayibona kuphela amalungu ethimba agunyaziwe, futhi ungasicela ukuthi siyisuse nganoma yisiphi isikhathi.",
+    "submit": "Thumela",
+    "errors": {
+      "name": "Sicela usitshele igama lakho.",
+      "email": "Sicela ufake ikheli le-imeyili elivumelekile.",
+      "location": "Sicela usitshele ukuthi uhlalaphi.",
+      "categories": "Khetha okungenani okukodwa."
+    },
+    "thanksTitle": "Siyabonga, {{name}}.",
+    "thanksBody": "Siyitholile impendulo yakho futhi sithumele isiqinisekiso ku-{{email}}. Othile ethimbeni uzoxhumana nawe."
+  },
+  "newsletter": {
+    "emailLabel": "Ikheli le-imeyili",
+    "placeholder": "your@email.com",
+    "submit": "Bhalisela",
+    "note": "I-imeyili eyodwa ngenyanga. Siqala ngokuthumela isixhumanisi sokuqinisekisa, futhi ungazikhipha ngokuchofoza kanye.",
+    "invalidEmail": "Sicela ufake ikheli le-imeyili elivumelekile.",
+    "checkInbox": "Hlola ibhokisi lakho le-imeyili",
+    "sentTo": "Sithumele isixhumanisi sokuqinisekisa ku-{{email}}. Chofoza kuso ukuze uqale ukuthola incwadi yezindaba."
+  },
+  "cta": {
+    "title": "Hlala useduze nezindaba",
+    "body": "Izindaba namavidiyo amasha, kanye ngenyanga. Noma usitshele ukuthi ungathanda ukubamba iqhaza kanjani.",
+    "join": "Zibandakanye"
+  },
+  "footer": {
+    "mission": "Sixhumanisa abantu base-Afrika ne-diaspora yase-Afrika ngomlando, ijografi, isiko namathuba.",
+    "explore": "Hlola",
+    "participate": "Bamba iqhaza",
+    "partner": "Sebenzisana nathi",
+    "copyright": "© {{year}} Wakanze",
+    "tagline": "Isizwe esisodwa. Ilangabi elilodwa.",
+    "follow": "Silandele"
+  },
+  "subscription": {
+    "confirmed": {
+      "title": "Usubhalisile",
+      "body": "Siyabonga ngokuqinisekisa. Incwadi yezindaba elandelayo izofika ekuqaleni kwenyanga ezayo.",
+      "cta": "Buka amavidiyo amasha"
+    },
+    "unsubscribed": {
+      "title": "Usuzikhiphile ohlwini",
+      "body": "Ngeke usayithola incwadi yezindaba. Ungabhalisa futhi nganoma yisiphi isikhathi kunoma yiliphi ikhasi."
+    }
+  },
+  "notFound": {
+    "title": "Ikhasi alitholakali",
+    "back": "Buyela ekhaya"
+  },
+  "language": {
+    "label": "Ulimi",
+    "groups": {
+      "africa": "Afrika",
+      "europe": "IYurophu",
+      "asia": "I-Asia"
+    }
+  }
+}

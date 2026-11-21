@@ -54,7 +54,7 @@ export default function VideoCard({ video }: { video: Video }) {
           rel="noopener noreferrer"
           className="mt-4 text-sm font-semibold text-ink-950 underline decoration-gold-500 underline-offset-4 hover:text-gold-700"
         >
-          {t('videos.watchOnYoutube')} <span aria-hidden="true">↗</span>
+          {t('videos.watchOnYoutube')} <span aria-hidden="true" className="inline-block rtl:-scale-x-100">↗</span>
           <span className="sr-only"> {t('common.opensInNewTab')}</span>
         </a>
       </div>

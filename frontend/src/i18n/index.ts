@@ -5,16 +5,30 @@ import en from './locales/en.json'
 import pt from './locales/pt.json'
 import fr from './locales/fr.json'
 import es from './locales/es.json'
+import sw from './locales/sw.json'
+import ha from './locales/ha.json'
+import yo from './locales/yo.json'
+import am from './locales/am.json'
+import zu from './locales/zu.json'
+import ar from './locales/ar.json'
 
 /** Languages are grouped by region so people can find theirs as the list grows. */
 export const LANGUAGE_GROUPS = ['africa', 'europe', 'asia'] as const
 export type LanguageGroup = (typeof LANGUAGE_GROUPS)[number]
 
+// Labels are each language's own name, so people recognise theirs.
+// sw, ha, yo, am, zu and ar are first-pass AI translations, pending review by native speakers.
 export const SUPPORTED_LANGUAGES = [
+  { code: 'sw', label: 'Kiswahili', group: 'africa' },
+  { code: 'ha', label: 'Hausa', group: 'africa' },
+  { code: 'yo', label: 'Yorùbá', group: 'africa' },
+  { code: 'am', label: 'አማርኛ', group: 'africa' },
+  { code: 'zu', label: 'isiZulu', group: 'africa' },
   { code: 'en', label: 'English', group: 'europe' },
   { code: 'pt', label: 'Português', group: 'europe' },
   { code: 'fr', label: 'Français', group: 'europe' },
   { code: 'es', label: 'Español', group: 'europe' },
+  { code: 'ar', label: 'العربية', group: 'asia' },
 ] as const satisfies readonly { code: string; label: string; group: LanguageGroup }[]
 
 export type LanguageCode = (typeof SUPPORTED_LANGUAGES)[number]['code']
@@ -31,6 +45,12 @@ i18n
       pt: { translation: pt },
       fr: { translation: fr },
       es: { translation: es },
+      sw: { translation: sw },
+      ha: { translation: ha },
+      yo: { translation: yo },
+      am: { translation: am },
+      zu: { translation: zu },
+      ar: { translation: ar },
     },
     supportedLngs: SUPPORTED_LANGUAGES.map((l) => l.code),
     // pt-BR, fr-CA, es-419… fall back to pt, fr, es
