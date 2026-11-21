@@ -1,19 +1,14 @@
 import { Link } from 'react-router'
 import { useTranslation } from 'react-i18next'
-import ArticleCard from '../../components/ArticleCard.tsx'
-import SupporterCard from '../../components/SupporterCard.tsx'
+import artwork from '../../assets/wakanze-artwork.webp'
 import CtaBand from '../../components/CtaBand.tsx'
-import EventCard from '../../components/EventCard.tsx'
-import goldenEmblem from '../../assets/wakanze-golden-emblem.webp'
 import SectionHeading from '../../components/SectionHeading.tsx'
+import VideoCard from '../../components/VideoCard.tsx'
 import { button, container, eyebrow } from '../../components/styles.ts'
-import { filterEvents } from '../../features/events/filterEvents.ts'
 import { INTEREST_CATEGORIES } from '../../features/interest-submission/categories.ts'
+import { latestVideos } from '../../features/videos/latestVideos.ts'
 import { STORE_URL } from '../../lib/links.ts'
 import { usePageMeta } from '../../lib/usePageMeta.ts'
-import { articleFeed } from '../../mocks/articles.ts'
-import { supporters } from '../../mocks/supporters.ts'
-import { events } from '../../mocks/events.ts'
 
 const PILLARS = ['memory', 'culture', 'connection'] as const
 
@@ -21,7 +16,6 @@ const PILLARS = ['memory', 'culture', 'connection'] as const
 export default function HomePage() {
   const { t } = useTranslation()
   usePageMeta('Wakanze', t('home.metaDescription'))
-  const upcoming = filterEvents(events, { from: '', to: '', region: 'all' }, new Date()).slice(0, 3)
 
   return (
     <main>
@@ -37,13 +31,13 @@ export default function HomePage() {
               <Link to="/join" className={`${button.accent} px-6 py-3 text-base`}>
                 {t('home.primaryCta')}
               </Link>
-              <Link to="/articles" className={`${button.onDark} px-6 py-3 text-base`}>
+              <Link to="/videos" className={`${button.onDark} px-6 py-3 text-base`}>
                 {t('home.secondaryCta')}
               </Link>
             </div>
           </div>
           <img
-            src={goldenEmblem}
+            src={artwork}
             alt={t('home.emblemAlt')}
             width="1200"
             height="800"
@@ -90,7 +84,7 @@ export default function HomePage() {
             </span>
           </a>
           <Link
-            to="/donate"
+            to="/support"
             className="group flex flex-col rounded-2xl bg-gold-500 p-8 text-ink-950 transition-shadow hover:shadow-lg"
           >
             <span className="font-display text-xs font-bold uppercase tracking-[0.2em] text-ink-800">{t('home.donateKicker')}</span>
@@ -105,41 +99,13 @@ export default function HomePage() {
 
       <section className={`${container} py-16 sm:py-20`}>
         <SectionHeading
-          kicker={t('home.articlesKicker')}
-          title={t('home.articlesTitle')}
-          link={{ to: '/articles', label: t('home.allArticles') }}
+          kicker={t('home.videosKicker')}
+          title={t('home.videosTitle')}
+          link={{ to: '/videos', label: t('home.allVideos') }}
         />
-        <div className="grid gap-6 md:grid-cols-3">
-          {articleFeed.slice(0, 3).map((article, i) => (
-            <ArticleCard key={article.slug} article={article} index={i} />
-          ))}
-        </div>
-      </section>
-
-      <section className="bg-paper-50">
-        <div className={`${container} py-16 sm:py-20`}>
-          <SectionHeading
-            kicker={t('home.eventsKicker')}
-            title={t('home.eventsTitle')}
-            link={{ to: '/events', label: t('home.allEvents') }}
-          />
-          <div className="grid gap-5 lg:grid-cols-3">
-            {upcoming.map((event) => (
-              <EventCard key={event.slug} event={event} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className={`${container} py-16 sm:py-20`}>
-        <SectionHeading
-          kicker={t('home.supportersKicker')}
-          title={t('home.supportersTitle')}
-          link={{ to: '/supporters', label: t('home.allSupporters') }}
-        />
-        <div className="grid gap-6 md:grid-cols-3">
-          {supporters.slice(0, 3).map((supporter) => (
-            <SupporterCard key={supporter.slug} supporter={supporter} />
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {latestVideos.map((video) => (
+            <VideoCard key={video.id} video={video} />
           ))}
         </div>
       </section>

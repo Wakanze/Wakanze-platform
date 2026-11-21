@@ -22,7 +22,7 @@ export default function SubscriptionStatusPage({ status }: { status: 'confirmed'
       <div className="mt-8 flex flex-wrap justify-center gap-3">
         {status === 'confirmed' ? (
           <>
-            <Link to="/articles" className={button.primary}>
+            <Link to="/videos" className={button.primary}>
               {t('subscription.confirmed.cta')}
             </Link>
             <Link to="/join" className={button.secondary}>

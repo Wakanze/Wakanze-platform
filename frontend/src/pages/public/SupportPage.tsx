@@ -10,7 +10,7 @@ import { usePageMeta } from '../../lib/usePageMeta.ts'
  * Support Wakanze: donations and merchandise are the project's two sources of income.
  * Both run on external platforms, so this page links out to them.
  */
-export default function DonatePage() {
+export default function SupportPage() {
   const { t } = useTranslation()
   usePageMeta(t('donate.title'), t('donate.intro'))
 

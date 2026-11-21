@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router'
 import { useTranslation } from 'react-i18next'
-import { STORE_URL } from '../lib/links.ts'
 import LanguageSwitcher from './LanguageSwitcher.tsx'
 import Logo from './Logo.tsx'
 import { button, container } from './styles.ts'
@@ -9,25 +8,16 @@ import { button, container } from './styles.ts'
 const NAV = [
   { to: '/', key: 'nav.home', end: true },
   { to: '/about', key: 'nav.about' },
-  { to: '/articles', key: 'nav.articles' },
-  { to: '/events', key: 'nav.events' },
-  { to: '/supporters', key: 'nav.supporters' },
-  { to: '/donate', key: 'nav.donate' },
+  { to: '/videos', key: 'nav.videos' },
 ] as const
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
   'whitespace-nowrap ' +
   (isActive ? 'font-semibold text-ink-950 underline decoration-gold-500 decoration-2 underline-offset-8' : 'text-ink-700 hover:text-ink-950')
 
-function StoreLink({ className, onClick }: { className: string; onClick?: () => void }) {
-  const { t } = useTranslation()
-  return (
-    <a href={STORE_URL} target="_blank" rel="noopener noreferrer" onClick={onClick} className={className}>
-      {t('nav.store')} <span aria-hidden="true">↗</span>
-      <span className="sr-only"> {t('common.opensInNewTab')}</span>
-    </a>
-  )
-}
+/** Donations and the Store live together under one entry. */
+const supportClass = ({ isActive }: { isActive: boolean }) =>
+  `whitespace-nowrap font-semibold ${isActive ? 'text-ink-950 underline decoration-gold-500 decoration-2 underline-offset-8' : 'text-gold-700 hover:text-ink-950'}`
 
 export default function SiteHeader() {
   const { t } = useTranslation()
@@ -37,15 +27,17 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-30 border-b border-paper-200 bg-paper-50/95 backdrop-blur">
       <div className={`${container} flex h-16 items-center gap-6`}>
         <Logo />
-        <nav aria-label={t('nav.label')} className="hidden flex-1 items-center gap-5 text-sm xl:flex">
+        <nav aria-label={t('nav.label')} className="hidden flex-1 items-center gap-6 text-sm lg:flex">
           {NAV.map((item) => (
             <NavLink key={item.to} to={item.to} end={'end' in item} className={linkClass}>
               {t(item.key)}
             </NavLink>
           ))}
-          <StoreLink className="whitespace-nowrap font-semibold text-gold-700 hover:text-ink-950" />
+          <NavLink to="/support" className={supportClass}>
+            {t('nav.support')}
+          </NavLink>
         </nav>
-        <div className="ml-auto hidden items-center gap-4 xl:flex">
+        <div className="ml-auto hidden items-center gap-4 lg:flex">
           <LanguageSwitcher />
           <Link to="/join" className={button.primary}>
             {t('nav.join')}
@@ -53,7 +45,7 @@ export default function SiteHeader() {
         </div>
         <button
           type="button"
-          className="ml-auto rounded-lg p-2 text-ink-950 hover:bg-paper-200 xl:hidden"
+          className="ml-auto rounded-lg p-2 text-ink-950 hover:bg-paper-200 lg:hidden"
           aria-expanded={open}
           aria-controls="mobile-nav"
           onClick={() => setOpen((v) => !v)}
@@ -65,7 +57,7 @@ export default function SiteHeader() {
         </button>
       </div>
       {open && (
-        <div id="mobile-nav" className="border-t border-paper-200 bg-paper-50 xl:hidden">
+        <div id="mobile-nav" className="border-t border-paper-200 bg-paper-50 lg:hidden">
           <nav aria-label={t('nav.label')} className={`${container} flex flex-col gap-1 py-4`}>
             {NAV.map((item) => (
               <NavLink
@@ -78,10 +70,13 @@ export default function SiteHeader() {
                 {t(item.key)}
               </NavLink>
             ))}
-            <StoreLink
+            <NavLink
+              to="/support"
               onClick={() => setOpen(false)}
-              className="rounded-lg px-3 py-2.5 text-base font-semibold text-gold-700 hover:text-ink-950"
-            />
+              className={(state) => `${supportClass(state)} rounded-lg px-3 py-2.5 text-base`}
+            >
+              {t('nav.support')}
+            </NavLink>
             <div className="mt-3 flex flex-wrap items-center justify-between gap-4 border-t border-paper-200 px-3 pt-4">
               <LanguageSwitcher />
               <Link to="/join" onClick={() => setOpen(false)} className={button.primary}>

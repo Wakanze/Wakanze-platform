@@ -3,7 +3,7 @@
     "loading": "Chargement…",
     "error": "Une erreur est survenue. Veuillez réessayer.",
     "skipToContent": "Aller au contenu",
-    "mockupBanner": "Maquette pour relecture : les contenus, événements et personnes sont fictifs et les formulaires n'envoient rien.",
+    "mockupBanner": "Aperçu : les formulaires de newsletter et de participation ne sont pas encore connectés.",
     "opensInNewTab": "(s'ouvre dans un nouvel onglet)"
   },
   "nav": {
@@ -17,15 +17,17 @@
     "close": "Fermer le menu",
     "supporters": "Soutiens",
     "donate": "Faire un don",
-    "store": "Boutique"
+    "store": "Boutique",
+    "videos": "Dernières vidéos",
+    "support": "Soutenir Wakanze"
   },
   "home": {
     "metaDescription": "Wakanze relie les peuples africains et la diaspora africaine à travers l'histoire, la géographie, la culture et les opportunités.",
     "kicker": "L’Afrique et sa diaspora",
     "title": "Un peuple. Une flamme.",
-    "subtitle": "Wakanze relie les peuples africains et la diaspora à travers l'histoire, la géographie, la culture et les opportunités. Lisez les histoires, trouvez un événement près de chez vous et choisissez comment participer.",
+    "subtitle": "Wakanze relie les peuples africains et la diaspora à travers l’histoire, la géographie, la culture et les opportunités. Regardez nos dernières vidéos et choisissez comment participer.",
     "primaryCta": "Participer",
-    "secondaryCta": "Lire les histoires",
+    "secondaryCta": "Voir les vidéos",
     "pillarsTitle": "Ce que fait Wakanze",
     "pillars": {
       "memory": {
@@ -41,12 +43,6 @@
         "body": "Des événements et des cercles locaux qui transforment une diaspora dispersée en réseau."
       }
     },
-    "articlesKicker": "Dernières histoires",
-    "articlesTitle": "Lire, puis partager",
-    "allArticles": "Tous les articles",
-    "eventsKicker": "À venir",
-    "eventsTitle": "Retrouvons-nous en personne ou en ligne",
-    "allEvents": "Tous les événements",
     "waysKicker": "Votre prochaine étape",
     "waysTitle": "Six façons de participer",
     "waysCta": "Dites-le-nous",
@@ -60,23 +56,31 @@
     "donateTitle": "Gardez la flamme allumée",
     "donateBody": "Wakanze est indépendant. Un petit don nous aide à publier, filmer et rassembler les gens.",
     "donateCta": "Soutenir Wakanze",
-    "supportersKicker": "Soutiens",
-    "supportersTitle": "Les voix derrière Wakanze",
-    "allSupporters": "Tous les soutiens"
+    "videosKicker": "Sur YouTube",
+    "videosTitle": "Dernières vidéos",
+    "allVideos": "Toutes les vidéos"
+  },
+  "videos": {
+    "kicker": "YouTube",
+    "title": "Dernières vidéos",
+    "intro": "Les vidéos les plus récentes de la chaîne Wakanze. Regardez-les ici ou sur YouTube.",
+    "play": "Lire : {{title}}",
+    "watchOnYoutube": "Voir sur YouTube",
+    "allOnYoutube": "Voir toutes les vidéos sur YouTube"
   },
   "about": {
     "kicker": "À propos de Wakanze",
     "title": "Un espace commun numérique pour le monde africain",
     "intro": "Wakanze est un projet de long terme pour relier les peuples africains et la diaspora à travers l'histoire, la géographie, la culture, le savoir et les générations.",
     "body1": "L'histoire de la diaspora africaine n'est pas seulement une histoire de déplacement. C'est aussi une histoire de création : de nouvelles cultures, de nouvelles langues, de nouvelles communautés sur tous les continents.",
-    "body2": "Wakanze commence par quelque chose de simple : un lieu pour lire ces histoires, rencontrer celles et ceux qui les racontent et trouver, près de chez vous, d'autres personnes qui partagent les mêmes intérêts.",
+    "body2": "Wakanze commence par quelque chose de simple : un endroit pour regarder ces histoires, rencontrer celles et ceux qui les racontent et trouver d’autres personnes qui partagent les mêmes intérêts.",
     "quote": "D'une diaspora d'individus à un réseau de communautés.",
     "body3": "Tout le reste, des cercles locaux à l'éducation et aux projets communs, grandit grâce à celles et ceux qui choisissent de participer. C'est pourquoi la première chose que nous demandons, c'est comment vous aimeriez vous impliquer.",
     "journeyTitle": "Comment ça marche",
     "steps": {
       "discover": {
         "title": "Découvrir",
-        "body": "Lisez des histoires et trouvez des événements et des créateurs."
+        "body": "Regardez nos vidéos et suivez Wakanze sur les réseaux sociaux."
       },
       "connect": {
         "title": "Rester en contact",
@@ -240,7 +244,7 @@
   },
   "cta": {
     "title": "Restez proche des histoires",
-    "body": "Les meilleurs articles, événements et créateurs, une fois par mois. Ou dites-nous comment vous aimeriez participer.",
+    "body": "Les nouvelles et les dernières vidéos, une fois par mois. Ou dites-nous comment vous aimeriez participer.",
     "join": "Participer"
   },
   "footer": {
@@ -256,7 +260,7 @@
     "confirmed": {
       "title": "Abonnement confirmé",
       "body": "Merci d'avoir confirmé. La prochaine newsletter arrivera au début du mois prochain.",
-      "cta": "Lire les dernières histoires"
+      "cta": "Voir les dernières vidéos"
     },
     "unsubscribed": {
       "title": "Vous êtes désabonné",
@@ -270,10 +274,9 @@
   "language": {
     "label": "Langue",
     "groups": {
-      "african": "Langues africaines",
-      "european": "Langues européennes",
-      "creole": "Langues créoles"
-    },
-    "comingSoon": "bientôt"
+      "africa": "Afrika",
+      "europe": "Europe",
+      "asia": "Asie"
+    }
   }
 }

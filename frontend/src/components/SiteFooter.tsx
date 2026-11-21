@@ -6,9 +6,7 @@ import { container } from './styles.ts'
 
 const EXPLORE = [
   { to: '/about', key: 'nav.about' },
-  { to: '/articles', key: 'nav.articles' },
-  { to: '/events', key: 'nav.events' },
-  { to: '/supporters', key: 'nav.supporters' },
+  { to: '/videos', key: 'nav.videos' },
 ] as const
 
 const heading = 'font-display text-xs font-bold uppercase tracking-[0.2em] text-gold-300'
@@ -46,7 +44,7 @@ export default function SiteFooter() {
               </Link>
             </li>
             <li>
-              <Link to="/donate" className={itemLink}>
+              <Link to="/support" className={itemLink}>
                 {t('nav.donate')}
               </Link>
             </li>

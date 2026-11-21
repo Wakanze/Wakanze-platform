@@ -3,7 +3,7 @@
     "loading": "Loading…",
     "error": "Something went wrong. Please try again.",
     "skipToContent": "Skip to content",
-    "mockupBanner": "Mockup for review: content, events and people are illustrative and forms do not send anything.",
+    "mockupBanner": "Preview: the newsletter and join forms are not connected yet.",
     "opensInNewTab": "(opens in a new tab)"
   },
   "nav": {
@@ -17,15 +17,17 @@
     "close": "Close menu",
     "supporters": "Supporters",
     "donate": "Donate",
-    "store": "Store"
+    "store": "Store",
+    "videos": "Latest videos",
+    "support": "Support Wakanze"
   },
   "home": {
     "metaDescription": "Wakanze connects African peoples and the African diaspora across history, geography, culture and opportunity.",
     "kicker": "Africa and its diaspora",
     "title": "One people. One flame.",
-    "subtitle": "Wakanze connects African peoples and the diaspora across history, geography, culture and opportunity. Read the stories, find an event near you and choose how you want to take part.",
+    "subtitle": "Wakanze connects African peoples and the diaspora across history, geography, culture and opportunity. Watch our latest videos and choose how you want to take part.",
     "primaryCta": "Get involved",
-    "secondaryCta": "Read the stories",
+    "secondaryCta": "Watch the videos",
     "pillarsTitle": "What Wakanze does",
     "pillars": {
       "memory": {
@@ -41,12 +43,6 @@
         "body": "Events and local circles that turn a scattered diaspora into a network."
       }
     },
-    "articlesKicker": "Latest stories",
-    "articlesTitle": "Read, then share",
-    "allArticles": "All articles",
-    "eventsKicker": "Coming up",
-    "eventsTitle": "Meet in person or online",
-    "allEvents": "All events",
     "waysKicker": "Your next step",
     "waysTitle": "Six ways to take part",
     "waysCta": "Tell us",
@@ -60,23 +56,31 @@
     "donateTitle": "Keep the flame alive",
     "donateBody": "Wakanze is independent. A small donation helps us publish, film and bring people together.",
     "donateCta": "Support Wakanze",
-    "supportersKicker": "Supporters",
-    "supportersTitle": "Voices behind Wakanze",
-    "allSupporters": "All supporters"
+    "videosKicker": "On YouTube",
+    "videosTitle": "Latest videos",
+    "allVideos": "All videos"
+  },
+  "videos": {
+    "kicker": "YouTube",
+    "title": "Latest videos",
+    "intro": "The newest videos from the Wakanze channel. Watch them here or on YouTube.",
+    "play": "Play: {{title}}",
+    "watchOnYoutube": "Watch on YouTube",
+    "allOnYoutube": "See all videos on YouTube"
   },
   "about": {
     "kicker": "About Wakanze",
     "title": "A digital commons for the African world",
     "intro": "Wakanze is a long-term project to connect African peoples and the diaspora across history, geography, culture, knowledge and generations.",
     "body1": "The history of the African diaspora is not only a story of displacement. It is also a story of creation: new cultures, new languages, new communities on every continent.",
-    "body2": "Wakanze starts with something simple: a place to read those stories, meet the people telling them and find others nearby who care about the same things.",
+    "body2": "Wakanze starts with something simple: a place to watch those stories, meet the people telling them and find others who care about the same things.",
     "quote": "From a diaspora of individuals to a network of communities.",
     "body3": "Everything else, from local circles to education and shared projects, grows from the people who choose to take part. That is why the first thing we ask is how you would like to be involved.",
     "journeyTitle": "How it works",
     "steps": {
       "discover": {
         "title": "Discover",
-        "body": "Read stories and find events and creators."
+        "body": "Watch our videos and follow Wakanze on social media."
       },
       "connect": {
         "title": "Stay in touch",
@@ -240,7 +244,7 @@
   },
   "cta": {
     "title": "Stay close to the stories",
-    "body": "The best articles, events and creators, once a month. Or tell us how you would like to take part.",
+    "body": "News and the latest videos, once a month. Or tell us how you would like to take part.",
     "join": "Get involved"
   },
   "footer": {
@@ -256,7 +260,7 @@
     "confirmed": {
       "title": "You are subscribed",
       "body": "Thank you for confirming. The next newsletter will arrive at the start of next month.",
-      "cta": "Read the latest stories"
+      "cta": "Watch the latest videos"
     },
     "unsubscribed": {
       "title": "You have been unsubscribed",
@@ -270,10 +274,9 @@
   "language": {
     "label": "Language",
     "groups": {
-      "african": "African languages",
-      "european": "European languages",
-      "creole": "Creole languages"
-    },
-    "comingSoon": "soon"
+      "africa": "Afrika",
+      "europe": "Europe",
+      "asia": "Asia"
+    }
   }
 }
